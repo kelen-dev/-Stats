@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Discord:
+   ========================================================================== */
+[data-widget=kelens_discord_widget] .kelens-content {
+    background: var(--color-contrast-lower);
+    padding: 15px;
+}
+
+.kelens-content {
+    border-radius: 0.3rem;
+}
+
+[data-widget=kelens_discord_widget] .kelens-usersDiscord {
+    height: 200px;
+    overflow: auto;
+}
+
+[data-widget=kelens_discord_widget] .kelens-discordUser {
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
+[data-widget=kelens_discord_widget] .kelens-userImg {
+    background: rgba(0, 0, 0, .149) no-repeat 50%/cover;
+    border-radius: 5px;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    width: 20px;
+}
+
+[data-widget=kelens_discord_widget] .kelens-status-dnd {
+    background: var(--color-error);
+}
+
+[data-widget=kelens_discord_widget] .kelens-status-online {
+    background: var(--color-success);
+}
+
+[data-widget=kelens_discord_widget] .kelens-userStatus {
+    border-radius: 50%;
+    display: block;
+    height: 8px;
+    left: auto;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 8px;
+}
+
+[data-widget=kelens_discord_widget] .kelens-username {
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+[data-widget=kelens_discord_widget] .kelens-discordInfo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+[data-widget=kelens_discord_widget] .kelens-js--discordCount {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}

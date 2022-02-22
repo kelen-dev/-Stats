@@ -1,0 +1,32 @@
+.footer--logo {
+    opacity: .3
+}
+
+.footer--liens .navbar-nav {
+    flex-wrap: wrap;
+    max-height: 300px
+}
+
+.footer--liens .navbar-nav .nav-item {
+    max-width: 50%
+}
+
+.footer--links-item {
+    font-size: 32px;
+    color: var(--color-contrast-high);
+    padding: 0 .5rem
+}
+
+.footer--links-item a {
+    padding: 0 1rem
+}
+
+.footer .footer--top {
+    padding: 3rem 0;
+    background-color: var(--color-bg)
+}
+
+.footer .footer--bottom {
+    padding: 1.5rem 0;
+    background-color: var(--color-contrast-lower)
+}

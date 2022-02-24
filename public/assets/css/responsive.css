@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+    .header .navbar {
+        height: 100px;
+    }
+
+    .header .navbar-brand {
+        padding: 0;
+    }
+
+    .header .navbar-brand, header.header .navbar-brand img {
+        max-width: 80px;
+    }
+
+    .header .navbar-collapse {
+        background-color: transparent !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    #games .rainbow-six-siège img {
+        position: relative;
+        left: 0;
+    }
+    #games .fortnite img {
+        position: relative;
+        left: 0;
+    }
+    #games .league-of-legends img {
+        position: relative;
+        left: 0;
+    }
+    #games .valorant img {
+        position: relative;
+        left: 0;
+    }
+    #games .battlefield img {
+        position: relative;
+        left: 0;
+    }
+
+    .footer .footer--top {
+        text-align: center;
+    }
+    .footer .footer--bottom {
+        text-align: center;
+    }
+}

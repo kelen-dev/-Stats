@@ -4,10 +4,6 @@
 /* ==========================================================================
    Base styles:
    ========================================================================== */
-[data-theme] {
-    background-color: var(--color-bg, #fff);
-    color: var(--color-contrast-high, #313135)
-}
 
 *, :after, :before {
     box-sizing: inherit
@@ -68,8 +64,6 @@ body {
     color: var(--color-accent);
     text-align: left;
     background-color: var(--color-bg);
-    background-image: linear-gradient(135deg, transparent, transparent 21%, #151618 0, #151618 48%, transparent 0, transparent 95%, #111114 0, #111114), linear-gradient(45deg, transparent, transparent 6%, #101114 0, #101114 13%, #26272d 0, #26272d 32%, transparent 0, transparent), linear-gradient(90deg, #17181c, #17181c);
-    background-repeat: no-repeat
 }
 
 article, aside, details, figcaption, figure, footer, form legend, header, hgroup, main, menu, nav, section {
@@ -82,6 +76,10 @@ section + section {
 
 ol, ul {
     list-style: none
+}
+
+i {
+    color: #ffffff;
 }
 
 blockquote, q {

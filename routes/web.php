@@ -23,9 +23,12 @@ Route::get('/maintenance', function () {
     return view('maintenance');
 })->name('maintenance');
 
-Route::get('/cv', function () {
-    return view('/p/cv');
-})->name('cv');
+Route::get('/r6', function () {
+    return view('/p/r6');
+})->name('r6');
+Route::get('/fortnite', function () {
+    return view('/p/fortnite');
+})->name('fortnite');
 
 Route::get('/a-propos', function () {
     return view('/p/a-propos');

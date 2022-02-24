@@ -29,7 +29,7 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.0/css/all.css'>
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
         {{-- Page level scripts --}}
@@ -72,6 +72,7 @@
         {{-- Styles --}}
         <link href="{{ asset('assets/css/scrollbar.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/variables.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/player.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/navbar.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">

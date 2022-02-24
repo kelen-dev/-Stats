@@ -23,7 +23,7 @@
 
 .footer .footer--top {
     padding: 3rem 0;
-    background-color: var(--color-bg)
+    background-color: var(--color-contrast-lower)
 }
 
 .footer .footer--bottom {
@@ -118,36 +118,4 @@ footer .social-media-links a:hover svg circle {
 
 .footer-social-media:hover {
     transform: scale(1.15);
-}
-
-.fa-facebook {
-    color: #273c75;
-}
-
-.fa-twitter {
-    color: #1da1f2;
-}
-
-.fa-instagram {
-    color: linear-gradient(90deg, #4776e6 0, #8e54e9 51%, #4776e6);
-}
-
-.fa-youtube {
-    color: #c00;
-}
-
-.fa-discord {
-    color: #5865F2;
-}
-
-.fa-steam {
-    color: #072258;
-}
-
-.fa-teamspeak {
-    color: #192132;
-}
-
-.fa-bell {
-    text-decoration: none;
 }

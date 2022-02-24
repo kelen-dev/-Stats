@@ -1,3 +1,86 @@
 /* ==========================================================================
    Home page:
    ========================================================================== */
+#games .rainbow-six-siège {
+    position: relative;
+    width: 20%;
+    height: 285.92px;
+
+    background: linear-gradient(90deg, #000000 1%, #434343 99%);
+}
+#games .rainbow-six-siège:hover {
+    z-index: 999;
+    transform: scaleX(2);
+    transition: ease-in-out 0.2s;
+}
+#games .rainbow-six-siège img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    object-fit: contain;
+}
+
+#games .fortnite {
+    position: relative;
+    width: 20%;
+    height: 285.92px;
+
+    background: linear-gradient(90deg, #3c1053 1%, #ad5389 99%);
+}
+#games .fortnite img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 10%;
+    top: 29px;
+    object-fit: contain;
+}
+
+#games .league-of-legends {
+    position: relative;
+    width: 20%;
+    height: 285.92px;
+
+    background: linear-gradient(90deg, #11998e 1%, #38ef7d 99%);
+}
+#games .league-of-legends img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 10%;
+    top: 29px;
+    object-fit: contain;
+}
+
+#games .valorant {
+    position: relative;
+    width: 20%;
+    height: 285.92px;
+
+    background: linear-gradient(90deg, #333333 1%, #dd1818 99%);
+}
+#games .valorant img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 10%;
+    top: 29px;
+    object-fit: contain;
+}
+
+#games .battlefield {
+    position: relative;
+    width: 20%;
+    height: 285.92px;
+
+    background: linear-gradient(90deg, #48c6ef 1%, #6f86d6 99%);
+}
+#games .battlefield img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 10%;
+    top: 29px;
+    object-fit: contain;
+}

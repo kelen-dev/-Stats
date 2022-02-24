@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row justify-content-around">
                 <div class="col-md-3 mt-3">
-                    <img class="footer--logo rounded-circle" src="{{ asset('assets/img/logo.png') }}"
+                    <img class="footer--logo" src="{{ asset('assets/img/logo.png') }}"
                          alt="{{ route('home') }}">
                 </div>
                 <div class="col-md-4 mt-3">
@@ -21,14 +21,6 @@
                                     <i class="fas fa-chevron-right"></i>
                                     <a href="{{ route('home') }}">
                                         Accueil
-                                    </a>
-                                </p>
-                            </li>
-                            <li class="nav-item">
-                                <p style="margin-bottom:5px;border-radius:3px; font-weight: bold;">
-                                    <i class="fas fa-chevron-right"></i>
-                                    <a href="{{ route('cv') }}">
-                                        CV
                                     </a>
                                 </p>
                             </li>
@@ -116,7 +108,8 @@
                         <div class="col-md-8">
                             <div class="footer--copyright">
                                 <div class="container">
-                                    Copyright &copy; 2019&dash;{{ date('Y') }} &middot;
+                                    Copyright &copy; {{ date('Y') }}
+                                    &middot;
                                     <a href="https://kelens.fr/" target="_blank" rel="noopener noreferrer">KelenS</a>
                                     &dash;
                                     <a href="#" target="_blank">Mono</a>

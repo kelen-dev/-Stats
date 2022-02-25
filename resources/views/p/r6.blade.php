@@ -14,7 +14,7 @@
     <section id="r6">
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="r6-card mb-3">
                         <div class="card bg-transparent">
                             <h5 class="card-header">
@@ -45,7 +45,7 @@
                 </div>
 
 
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="r6-card p-2 mb-3">
                         <div class="container p-2">
                             <div>

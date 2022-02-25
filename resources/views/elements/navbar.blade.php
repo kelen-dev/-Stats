@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="{{ route('home') }}">
-        <img class="img-fluid" src="{{ asset('assets/img/logo.png') }}" alt="{{ route('home') }}"
+        <img class="img-fluid" src="{{ asset('assets/img/Logo/logo.png') }}" alt="{{ route('home') }}"
              class="d-lg-block d-sm-none">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"

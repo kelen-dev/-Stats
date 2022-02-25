@@ -84,3 +84,39 @@
     top: 29px;
     object-fit: contain;
 }
+
+
+/* ==========================================================================
+   R6 page:
+   ========================================================================== */
+.r6-background {
+    background: url("../img/Banners/r6.jpg") no-repeat top / cover;
+    height: 440px;
+}
+.r6-background .user-profil p {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.r6-background .user-profil .img-profil {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 490px;
+
+    background: #233053;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#r6 {
+    background: url("../img/Fond/Fond R6.jpg");
+}
+#r6 .life-time {
+    background: #1D2238;
+    border-radius: 25px;
+    color: var(--color-r6);
+}

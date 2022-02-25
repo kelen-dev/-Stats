@@ -11,7 +11,7 @@
         <meta property="og:title" content="@yield('title')">
         <meta property="og:type" content="@yield('type', 'website')">
         <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:image" content="{{ asset('assets/img/logo.png') }}">
+        <meta property="og:image" content="{{ asset('assets/img/Logo/logo.png') }}">
         <meta property="og:description" content="@yield('description')">
         <meta property="og:site_name" content="&Stats">
         @stack('meta')
@@ -22,7 +22,7 @@
         <title>@yield('title') | &Stats</title>
 
         {{-- Favicon --}}
-        <link rel="shortcut icon" href="{{ asset('assets/img/logo.png') }}">
+        <link rel="shortcut icon" href="{{ asset('assets/img/Logo/logo.png') }}">
 
         {{-- Fonts --}}
         <link href="{{ asset('vendor/fontawesome/css/all.min.css') }}" rel="stylesheet">

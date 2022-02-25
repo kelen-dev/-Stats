@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row justify-content-around">
                 <div class="col-md-3 mt-3">
-                    <img class="footer--logo" src="{{ asset('assets/img/logo.png') }}"
+                    <img class="footer--logo" src="{{ asset('assets/img/Logo/logo.png') }}"
                          alt="{{ route('home') }}">
                 </div>
                 <div class="col-md-4 mt-3">

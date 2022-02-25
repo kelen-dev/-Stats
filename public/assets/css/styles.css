@@ -24,18 +24,20 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     border: 0
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lemon;
+}
+
 .h1, h1 {
     font-size: 2.5rem
 }
 
 .h2, h2 {
     font-size: 2rem;
-    color: #ebb455;
 }
 
 .h3, h3 {
     font-size: 1.75rem;
-    color: #ebb455
 }
 
 .h4, h4 {

@@ -124,9 +124,35 @@
     border-bottom: 4px solid var(--color-r6);
 }
 #r6 .r6-card .card-header img {
+    max-height: 30px;
+}
+
+#r6 .r6-card .card-body {
+    display: flex;
+}
+#r6 .r6-card .card-body img {
+    height: 80px;
+    object-fit: cover;
+}
+
+#r6 .r6-card-operators {
+    background: #1D2238;
+    border-radius: 25px;
+    color: var(--color-r6);
+    height: 230px;
+}
+
+#r6 .r6-card-operators .card-header {
+    border-bottom: 4px solid var(--color-r6);
+}
+#r6 .r6-card-operators .card-header img {
     max-height: 50px;
 }
 
-#r6 .r6-card {
-
+#r6 .r6-card-operators .card-body {
+    display: flex;
+}
+#r6 .r6-card-operators .card-body img {
+    height: 50px;
+    object-fit: cover;
 }

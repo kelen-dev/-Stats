@@ -18,17 +18,11 @@
                     <div class="r6-card mb-3">
                         <div class="card bg-transparent">
                             <h5 class="card-header">
-                                <img src="{{ asset('assets/img/Logos/triangle-r6.png') }}" alt="">
+                                <img src="{{ asset('assets/img/R6/triangle-r6.png') }}" alt="">
                                 LifeTime
                             </h5>
                             <div class="card-body">
-                                <h5 class="card-title">
-                                    Special title treatment
-                                </h5>
-                                <p class="card-text">
-                                    With supporting text below as a natural lead-in to additional
-                                    content.
-                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -36,17 +30,15 @@
                     <div class="r6-card w-75">
                         <div class="card bg-transparent">
                             <h5 class="card-header">
-                                <img src="{{ asset('assets/img/Logos/triangle-r6.png') }}" alt="">
+                                <img src="{{ asset('assets/img/R6/triangle-r6.png') }}" alt="">
                                 Ranked
                             </h5>
                             <div class="card-body">
-                                <h5 class="card-title">
-                                    Special title treatment
+                                <img src="{{ asset('assets/img/R6/gold.png') }}" alt="gold">
+
+                                <h5>
+                                    MMR Actuel
                                 </h5>
-                                <p class="card-text">
-                                    With supporting text below as a natural lead-in to additional
-                                    content.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +46,7 @@
 
 
                 <div class="col-md-3">
-                    <div class="r6-card p-2 mb-5">
+                    <div class="r6-card p-2 mb-3">
                         <div class="container p-2">
                             <div>
                                 <p>173 -> 174</p>
@@ -68,19 +60,16 @@
                         </div>
                     </div>
 
-                    <div class="r6-card pb-2">
+                    <div class="r6-card-operators">
                         <div class="card bg-transparent">
                             <h5 class="card-header">
-                                <img src="{{ asset('assets/img/Logos/medaille.png') }}" alt="">
+                                <img src="{{ asset('assets/img/R6/medaille.png') }}" alt="">
                                 Meilleurs Opérateurs
                             </h5>
                             <div class="card-body">
-                                <h5 class="card-title">
-                                    Special title treatment
-                                </h5>
-                                <p class="card-text">
-                                    With supporting text below as a natural lead-in to additional content.
-                                </p>
+                                <img src="{{ asset('assets/img/R6/mute.png') }}" alt="mute">
+                                <img src="{{ asset('assets/img/R6/hibana.png') }}" alt="hibana">
+                                <img src="{{ asset('assets/img/R6/lesion.png') }}" alt="lesion">
                             </div>
                         </div>
                     </div>

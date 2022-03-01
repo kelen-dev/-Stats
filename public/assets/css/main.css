@@ -326,3 +326,78 @@
     height: 80px;
     object-fit: cover;
 }
+
+
+/* ==========================================================================
+   Valorant page:
+   ========================================================================== */
+.valorant-background {
+    background: url("../img/Banners/r6.jpg") no-repeat top / cover;
+    height: 440px;
+}
+.valorant-background .user-profil p {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.valorant-background .user-profil .img-profil {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 490px;
+
+    background: var(--color-bg-valorant);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#valorant {
+    background: url("../img/Fond/Fond R6.jpg") no-repeat center / cover;
+}
+#valorant .valorant-card {
+    background: var(--color-bg-valorant);
+    border-radius: 25px;
+}
+#valorant .valorant-card .card-header {
+    border-bottom: 4px solid var(--color-valorant);
+    color: var(--color-valorant);
+}
+#valorant .valorant-card .card-header img {
+    max-height: 30px;
+}
+
+#valorant .valorant-card .card-body {
+    display: flex;
+    color: var(--color-white);
+}
+#valorant .valorant-card .card-body h6 {
+    color: var(--color-valorant);
+}
+#valorant .valorant-card .card-body img {
+    height: 80px;
+    object-fit: cover;
+}
+
+#valorant .valorant-card-operators {
+    background: var(--color-bg-valorant);
+    border-radius: 25px;
+    color: var(--color-valorant);
+    height: 280px;
+}
+#valorant .valorant-card-operators .card-header {
+    border-bottom: 4px solid var(--color-valorant);
+}
+#valorant .valorant-card-operators .card-header img {
+    max-height: 50px;
+}
+
+#valorant .valorant-card-operators .card-body {
+    display: flex;
+}
+#valorant .valorant-card-operators .card-body img {
+    height: 50px;
+    object-fit: cover;
+}

@@ -113,7 +113,7 @@
 }
 
 #r6 {
-    background: url("../img/Fond/Fond R6.jpg");
+    background: url("../img/Fond/Fond R6.jpg") no-repeat center / cover;
 }
 #r6 .r6-card {
     background: #1D2238;
@@ -162,5 +162,167 @@
 
 
 /* ==========================================================================
-   R6 page:
+   Fortnite page:
    ========================================================================== */
+.fortnite-background {
+    background: url("../img/Banners/fortnite.jpg") no-repeat center / cover;
+    height: 440px;
+}
+.fortnite-background .user-profil p {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.fortnite-background .user-profil .img-profil {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 490px;
+
+    background: #69BF02;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#fortnite {
+    background: url("../img/Fond/Fortnite.png") no-repeat center / cover;
+}
+#fortnite .fortnite-card {
+    background: #6AAF03;
+    border-radius: 25px;
+}
+#fortnite .fortnite-card .card-header {
+    border-bottom: 4px solid var(--color-fortnite);
+    color: var(--color-fortnite);
+}
+#fortnite .fortnite-card .card-header img {
+    max-height: 30px;
+}
+
+#fortnite .fortnite-card .card-body {
+    display: flex;
+    color: var(--color-black);
+}
+#fortnite .fortnite-card .card-body h6 {
+    color: var(--color-fortnite);
+}
+#fortnite .fortnite-card .card-body img {
+    height: 80px;
+    object-fit: cover;
+}
+
+#fortnite .fortnite-card-stats {
+    background: #6AAF03;
+    border-radius: 25px;
+    color: var(--color-fortnite);
+    max-height: 100%;
+}
+#fortnite .fortnite-card-stats .card .card-header {
+    border-bottom: 4px solid var(--color-fortnite);
+}
+#fortnite .fortnite-card-stats .card .card-header .nav:first-child {
+    border-radius: 25px 0 0 0;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav-tabs {
+    border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav-link {
+    color: var(--color-fortnite);
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link:hover {
+    background-color: #5D9804;
+    border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active {
+    background-color: #6AAF03;
+    border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active:first-child {
+    border-radius: 25px 0 0 0;
+}
+
+#fortnite .fortnite-card-stats .card-body {
+    display: flex;
+    color: var(--color-black);
+}
+#fortnite .fortnite-card-stats .card-body h6 {
+    color: var(--color-fortnite);
+}
+
+
+/* ==========================================================================
+   League of legends page:
+   ========================================================================== */
+.lol-background {
+    background: url("../img/Banners/lol.png") no-repeat center / cover;
+    height: 440px;
+}
+.lol-background .user-profil p {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.lol-background .user-profil .img-profil {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 490px;
+
+    background: var(--color-bg-lol);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#lol {
+    background: url("../img/Fond/Lol.png") no-repeat center / cover;
+}
+#lol .lol-card {
+    background: var(--color-bg-lol);
+    border-radius: 25px;
+}
+#lol .lol-card .card-header {
+    border-bottom: 4px solid var(--color-lol);
+    color: var(--color-lol);
+}
+#lol .lol-card .card-header img {
+    max-height: 30px;
+}
+
+#lol .lol-card .card-body {
+    display: flex;
+    color: var(--color-white);
+}
+#lol .lol-card .card-body h6 {
+    color: var(--color-lol);
+}
+#lol .lol-card .card-body img {
+    height: 80px;
+    object-fit: cover;
+}
+
+#lol .lol-card-champions {
+    background: var(--color-bg-lol);
+    border-radius: 25px;
+    color: var(--color-lol);
+    height: 100%;
+}
+#lol .lol-card-champions .card-header {
+    border-bottom: 4px solid var(--color-lol);
+}
+#lol .lol-card-champions .card-header img {
+    max-height: 50px;
+}
+
+#lol .lol-card-champions .card-body {
+    display: flex;
+}
+#lol .lol-card-champions .card-body img {
+    height: 80px;
+    object-fit: cover;
+}

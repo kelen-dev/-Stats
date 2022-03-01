@@ -114,7 +114,7 @@
 
                     <div class="valorant-card w-75">
                         <div class="card bg-transparent">
-                            <h5 class="card-header">
+                            <h5 class="card-header d-flex align-items-center">
                                 <img src="{{ asset('assets/img/Valorant/Triangle.png') }}" alt="">
                                 Ranked
                             </h5>

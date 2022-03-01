@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'R6')
+@section('title', 'Valorant')
 
 @section('content')
     <div class="valorant-background">
@@ -33,74 +33,74 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Damage/<br>Round
                                             </h6>
                                             <p>156.1</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 K/D
                                             </h6>
                                             <p>1.13</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills
                                             </h6>
                                             <p>3,961</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills/<br>Round
                                             </h6>
                                             <p>0.8</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Win %
                                             </h6>
                                             <p>59.8%</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Wins
                                             </h6>
                                             <p>137</p>
                                         </div>
 
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Deaths
                                             </h6>
                                             <p>3,519</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Assists
                                             </h6>
                                             <p>1,318</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Headshot
                                             </h6>
                                             <p>2,548</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Clutches
                                             </h6>
                                             <p>333</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Aces
                                             </h6>
                                             <p>4</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 First Bloods
                                             </h6>
@@ -150,9 +150,15 @@
                                 Meilleurs Opérateurs
                             </h5>
                             <div class="card-body">
-                                <img src="{{ asset('assets/img/Valorant/operator1.png') }}" alt="">
-                                <img src="{{ asset('assets/img/Valorant/operator2.png') }}" alt="">
-                                <img src="{{ asset('assets/img/Valorant/operator3.png') }}" alt="">
+                                <div class="col">
+                                    <img src="{{ asset('assets/img/Valorant/operator1.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <img src="{{ asset('assets/img/Valorant/operator2.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <img src="{{ asset('assets/img/Valorant/operator3.png') }}" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -19,18 +19,18 @@
                         <div class="card bg-transparent">
                             <h5 class="card-header">
                                 <div class="row">
-                                    <div class="col-md-3 d-flex align-items-center">
+                                    <div class="col col-md-3 d-flex align-items-center">
                                         <img src="{{ asset('assets/img/Battlefield/Triangle.png') }}" alt="">
                                         LifeTime
                                     </div>
 
-                                    <div class="col-md-9 d-flex align-items-center">
+                                    <div class="col col-md-9 d-flex align-items-center">
                                         <img src="{{ asset('assets/img/Battlefield/time.png') }}" alt="time">
-                                        557h Play Time
+                                        112h 36m 30s Play Time
                                     </div>
                                 </div>
                             </h5>
-                            <div class="card-body">
+                            <div class="card-body justify-content-center">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col col-md-2">
@@ -111,23 +111,57 @@
                                 <img src="{{ asset('assets/img/Battlefield/Triangle.png') }}" alt="">
                                 Ranked
                             </h5>
-                            <div class="card-body">
-                                <img src="{{ asset('assets/img/R6/gold.png') }}" alt="gold">
+                            <div class="card-body justify-content-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Assault.png') }}" alt="">
+                                                Assault
+                                            </h6>
+                                            <p class="ps-3">44h 57m</p>
+                                        </div>
 
-                                <div class="col">
-                                    <h6>
-                                        MMR Actuel
-                                    </h6>
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
+                                                Medic
+                                            </h6>
+                                            <p class="ps-3">44h 26m</p>
+                                        </div>
 
-                                    <p>2.278</p>
-                                </div>
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
+                                                Medic
+                                            </h6>
+                                            <p class="ps-3">44h 26m</p>
+                                        </div>
 
-                                <div class="col">
-                                    <h6>
-                                        Meilleur MMR
-                                    </h6>
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
+                                                Medic
+                                            </h6>
+                                            <p class="ps-3">44h 26m</p>
+                                        </div>
 
-                                    <p>3.114</p>
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
+                                                Medic
+                                            </h6>
+                                            <p class="ps-3">44h 26m</p>
+                                        </div>
+
+                                        <div class="col col-md-2">
+                                            <h6 class="d-flex align-items-center">
+                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
+                                                Medic
+                                            </h6>
+                                            <p class="ps-3">44h 26m</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,31 +170,25 @@
 
 
                 <div class="col-md-4">
-                    <div class="battlefield-card pb-4 mb-3">
+                    <div class="battlefield-card battlefield-card-level pb-4 mb-3">
                         <h5 class="card-header d-flex align-items-center pt-3 px-2">
-                            173 -> 174
+                            <img src="{{ asset('assets/img/Battlefield/level.png') }}" alt=""> -> 109
                         </h5>
                         <div class="p-2">
-                            <div class="progress bg-white bg-opacity-25 mt-2">
-                                <div class="progress-bar bg-white text-dark fw-bold" role="progressbar" style="width: 25%;"
+                            <div class="progress bg-dark bg-opacity-25 mt-2">
+                                <div class="progress-bar bg-dark text-light fw-bold" role="progressbar"
+                                     style="width: 25%;"
                                      aria-valuenow="25"
-                                     aria-valuemin="0" aria-valuemax="100">25%
+                                     aria-valuemin="0" aria-valuemax="100">
+                                    25%
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="r6-card-operators">
+                    <div class="battlefield-card-assault">
                         <div class="card bg-transparent">
-                            <h5 class="card-header">
-                                <img src="{{ asset('assets/img/Battlefield/medaille.png') }}" alt="">
-                                Meilleurs Opérateurs
-                            </h5>
-                            <div class="card-body">
-                                <img src="{{ asset('assets/img/R6/mute.png') }}" alt="mute">
-                                <img src="{{ asset('assets/img/R6/hibana.png') }}" alt="hibana">
-                                <img src="{{ asset('assets/img/R6/lesion.png') }}" alt="lesion">
-                            </div>
+                            <img src="{{ asset('assets/img/Battlefield/battlefield-v.png') }}" alt="">
                         </div>
                     </div>
                 </div>

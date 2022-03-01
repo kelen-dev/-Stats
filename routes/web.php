@@ -27,8 +27,17 @@ Route::get('/r6', function () {
     return view('/p/r6');
 })->name('r6');
 Route::get('/fortnite', function () {
-    return view('/p/fortnite');
+    return view('/p/fortnite/index');
 })->name('fortnite');
+Route::get('/league-of-legends', function () {
+    return view('/p/lol');
+})->name('lol');
+Route::get('/valorant', function () {
+    return view('/p/valorant');
+})->name('valorant');
+Route::get('/battlefield', function () {
+    return view('/p/battlefield');
+})->name('battlefield');
 
 Route::get('/a-propos', function () {
     return view('/p/a-propos');

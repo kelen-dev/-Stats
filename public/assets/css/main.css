@@ -401,3 +401,64 @@
     height: 80px;
     object-fit: cover;
 }
+
+
+/* ==========================================================================
+   Battlefield page:
+   ========================================================================== */
+.battlefield-background {
+    background: url("../img/Banners/Battlefield.jpg") no-repeat top / cover;
+    height: 440px;
+}
+.battlefield-background .user-profil p {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.battlefield-background .user-profil .img-profil {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 160px;
+    top: 490px;
+
+    background: var(--color-bg-battlefield);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#battlefield {
+    background: url("../img/Fond/Battlefield.png") no-repeat center / cover;
+}
+#battlefield .battlefield-card {
+    background: var(--color-bg-battlefield);
+    border-radius: 25px;
+}
+#battlefield .battlefield-card .card-header {
+    border-bottom: 4px solid var(--border-battlefield);
+    color: var(--color-battlefield);
+}
+#battlefield .battlefield-card .card-header img {
+    max-height: 30px;
+}
+#battlefield .battlefield-card .card-body {
+    display: flex;
+    color: var(--color-black);
+}
+#battlefield .battlefield-card .card-body h6 {
+    color: var(--color-battlefield);
+}
+#battlefield .battlefield-card .card-body img {
+    height: 50px;
+    object-fit: cover;
+}
+
+#battlefield .battlefield-card-level .card-header img {
+    max-height: 50px;
+}
+
+#battlefield .battlefield-card-assault img {
+    height: 100%;
+}

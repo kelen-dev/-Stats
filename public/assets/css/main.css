@@ -385,7 +385,7 @@
     background: var(--color-bg-valorant);
     border-radius: 25px;
     color: var(--color-valorant);
-    height: 280px;
+    height: 100%;
 }
 #valorant .valorant-card-operators .card-header {
     border-bottom: 4px solid var(--color-valorant);
@@ -398,6 +398,6 @@
     display: flex;
 }
 #valorant .valorant-card-operators .card-body img {
-    height: 50px;
+    height: 80px;
     object-fit: cover;
 }

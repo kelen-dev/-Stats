@@ -332,7 +332,7 @@
    Valorant page:
    ========================================================================== */
 .valorant-background {
-    background: url("../img/Banners/r6.jpg") no-repeat top / cover;
+    background: url("../img/Banners/Valorant.jpg") no-repeat center / cover;
     height: 440px;
 }
 .valorant-background .user-profil p {
@@ -355,7 +355,7 @@
 }
 
 #valorant {
-    background: url("../img/Fond/Fond R6.jpg") no-repeat center / cover;
+    background: url("../img/Fond/Valorant.png") no-repeat center / cover;
 }
 #valorant .valorant-card {
     background: var(--color-bg-valorant);

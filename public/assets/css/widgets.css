@@ -11,7 +11,7 @@
 }
 
 [data-widget=kelens_discord_widget] .kelens-usersDiscord {
-    height: 200px;
+    height: 100%;
     overflow: auto;
 }
 

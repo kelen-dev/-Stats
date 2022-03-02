@@ -17,20 +17,28 @@
                         <h3 class="h3">Liens</h3>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <p style="margin-bottom:5px;border-radius:3px; font-weight: bold;">
-                                    <i class="fas fa-chevron-right"></i>
-                                    <a href="{{ route('home') }}">
-                                        Accueil
-                                    </a>
-                                </p>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="{{ route('home') }}">
+                                    Accueil
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <p style="margin-bottom:5px;border-radius:3px; font-weight: bold;">
-                                    <i class="fas fa-chevron-right"></i>
-                                    <a href="{{ route('contact.index') }}">
-                                        Contact
-                                    </a>
-                                </p>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="{{ route('home') }}">
+                                    Connexion
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="{{ route('home') }}">
+                                    Inscription
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="{{ route('contact.index') }}">
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </div>

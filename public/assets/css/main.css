@@ -8,11 +8,13 @@
 
     background: linear-gradient(90deg, #000000 1%, #434343 99%);
 }
+
 #games .rainbow-six-siège:hover {
     z-index: 999;
     transform: scaleX(2);
     transition: ease-in-out 0.2s;
 }
+
 #games .rainbow-six-siège img {
     position: absolute;
     width: 100%;
@@ -28,6 +30,7 @@
 
     background: linear-gradient(90deg, #3c1053 1%, #ad5389 99%);
 }
+
 #games .fortnite img {
     position: absolute;
     width: 100%;
@@ -44,6 +47,7 @@
 
     background: linear-gradient(90deg, #11998e 1%, #38ef7d 99%);
 }
+
 #games .league-of-legends img {
     position: absolute;
     width: 100%;
@@ -60,6 +64,7 @@
 
     background: linear-gradient(90deg, #333333 1%, #dd1818 99%);
 }
+
 #games .valorant img {
     position: absolute;
     width: 100%;
@@ -76,6 +81,7 @@
 
     background: linear-gradient(90deg, #48c6ef 1%, #6f86d6 99%);
 }
+
 #games .battlefield img {
     position: absolute;
     width: 100%;
@@ -93,6 +99,7 @@
     background: url("../img/Banners/r6.jpg") no-repeat top / cover;
     height: 440px;
 }
+
 .r6-background .user-profil p {
     position: absolute;
     top: 530px;
@@ -100,6 +107,7 @@
     color: #FF0000;
     font-weight: bold;
 }
+
 .r6-background .user-profil .img-profil {
     position: absolute;
     width: 100px;
@@ -115,14 +123,17 @@
 #r6 {
     background: url("../img/Fond/Fond R6.jpg") no-repeat center / cover;
 }
+
 #r6 .r6-card {
     background: #1D2238;
     border-radius: 25px;
 }
+
 #r6 .r6-card .card-header {
     border-bottom: 4px solid var(--color-r6);
     color: var(--color-r6);
 }
+
 #r6 .r6-card .card-header img {
     max-height: 30px;
 }
@@ -131,9 +142,11 @@
     display: flex;
     color: var(--color-white);
 }
+
 #r6 .r6-card .card-body h6 {
     color: var(--color-r6);
 }
+
 #r6 .r6-card .card-body img {
     height: 80px;
     object-fit: cover;
@@ -145,9 +158,11 @@
     color: var(--color-r6);
     height: 280px;
 }
+
 #r6 .r6-card-operators .card-header {
     border-bottom: 4px solid var(--color-r6);
 }
+
 #r6 .r6-card-operators .card-header img {
     max-height: 50px;
 }
@@ -155,6 +170,7 @@
 #r6 .r6-card-operators .card-body {
     display: flex;
 }
+
 #r6 .r6-card-operators .card-body img {
     height: 50px;
     object-fit: cover;
@@ -168,6 +184,7 @@
     background: url("../img/Banners/fortnite.jpg") no-repeat center / cover;
     height: 440px;
 }
+
 .fortnite-background .user-profil p {
     position: absolute;
     top: 530px;
@@ -175,6 +192,7 @@
     color: #FF0000;
     font-weight: bold;
 }
+
 .fortnite-background .user-profil .img-profil {
     position: absolute;
     width: 100px;
@@ -190,14 +208,17 @@
 #fortnite {
     background: url("../img/Fond/Fortnite.png") no-repeat center / cover;
 }
+
 #fortnite .fortnite-card {
     background: #6AAF03;
     border-radius: 25px;
 }
+
 #fortnite .fortnite-card .card-header {
     border-bottom: 4px solid var(--color-fortnite);
     color: var(--color-fortnite);
 }
+
 #fortnite .fortnite-card .card-header img {
     max-height: 30px;
 }
@@ -206,9 +227,11 @@
     display: flex;
     color: var(--color-black);
 }
+
 #fortnite .fortnite-card .card-body h6 {
     color: var(--color-fortnite);
 }
+
 #fortnite .fortnite-card .card-body img {
     height: 80px;
     object-fit: cover;
@@ -220,26 +243,33 @@
     color: var(--color-fortnite);
     max-height: 100%;
 }
+
 #fortnite .fortnite-card-stats .card .card-header {
     border-bottom: 4px solid var(--color-fortnite);
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav:first-child {
     border-radius: 25px 0 0 0;
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav-tabs {
     border: none;
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav-link {
     color: var(--color-fortnite);
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link:hover {
     background-color: #5D9804;
     border: none;
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active {
     background-color: #6AAF03;
     border: none;
 }
+
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active:first-child {
     border-radius: 25px 0 0 0;
 }
@@ -248,6 +278,7 @@
     display: flex;
     color: var(--color-black);
 }
+
 #fortnite .fortnite-card-stats .card-body h6 {
     color: var(--color-fortnite);
 }
@@ -260,6 +291,7 @@
     background: url("../img/Banners/lol.png") no-repeat center / cover;
     height: 440px;
 }
+
 .lol-background .user-profil p {
     position: absolute;
     top: 530px;
@@ -267,6 +299,7 @@
     color: #FF0000;
     font-weight: bold;
 }
+
 .lol-background .user-profil .img-profil {
     position: absolute;
     width: 100px;
@@ -282,14 +315,17 @@
 #lol {
     background: url("../img/Fond/Lol.png") no-repeat center / cover;
 }
+
 #lol .lol-card {
     background: var(--color-bg-lol);
     border-radius: 25px;
 }
+
 #lol .lol-card .card-header {
     border-bottom: 4px solid var(--color-lol);
     color: var(--color-lol);
 }
+
 #lol .lol-card .card-header img {
     max-height: 30px;
 }
@@ -298,9 +334,11 @@
     display: flex;
     color: var(--color-white);
 }
+
 #lol .lol-card .card-body h6 {
     color: var(--color-lol);
 }
+
 #lol .lol-card .card-body img {
     height: 80px;
     object-fit: cover;
@@ -312,9 +350,11 @@
     color: var(--color-lol);
     height: 100%;
 }
+
 #lol .lol-card-champions .card-header {
     border-bottom: 4px solid var(--color-lol);
 }
+
 #lol .lol-card-champions .card-header img {
     max-height: 50px;
 }
@@ -322,6 +362,7 @@
 #lol .lol-card-champions .card-body {
     display: flex;
 }
+
 #lol .lol-card-champions .card-body img {
     height: 80px;
     object-fit: cover;
@@ -335,6 +376,7 @@
     background: url("../img/Banners/Valorant.jpg") no-repeat center / cover;
     height: 440px;
 }
+
 .valorant-background .user-profil p {
     position: absolute;
     top: 530px;
@@ -342,6 +384,7 @@
     color: #FF0000;
     font-weight: bold;
 }
+
 .valorant-background .user-profil .img-profil {
     position: absolute;
     width: 100px;
@@ -357,14 +400,17 @@
 #valorant {
     background: url("../img/Fond/Valorant.png") no-repeat center / cover;
 }
+
 #valorant .valorant-card {
     background: var(--color-bg-valorant);
     border-radius: 25px;
 }
+
 #valorant .valorant-card .card-header {
     border-bottom: 4px solid var(--color-valorant);
     color: var(--color-valorant);
 }
+
 #valorant .valorant-card .card-header img {
     max-height: 30px;
 }
@@ -373,9 +419,11 @@
     display: flex;
     color: var(--color-white);
 }
+
 #valorant .valorant-card .card-body h6 {
     color: var(--color-valorant);
 }
+
 #valorant .valorant-card .card-body img {
     height: 80px;
     object-fit: cover;
@@ -387,9 +435,11 @@
     color: var(--color-valorant);
     height: 100%;
 }
+
 #valorant .valorant-card-operators .card-header {
     border-bottom: 4px solid var(--color-valorant);
 }
+
 #valorant .valorant-card-operators .card-header img {
     max-height: 50px;
 }
@@ -397,6 +447,7 @@
 #valorant .valorant-card-operators .card-body {
     display: flex;
 }
+
 #valorant .valorant-card-operators .card-body img {
     height: 80px;
     object-fit: cover;
@@ -410,6 +461,7 @@
     background: url("../img/Banners/Battlefield.jpg") no-repeat top / cover;
     height: 440px;
 }
+
 .battlefield-background .user-profil p {
     position: absolute;
     top: 530px;
@@ -417,6 +469,7 @@
     color: #FF0000;
     font-weight: bold;
 }
+
 .battlefield-background .user-profil .img-profil {
     position: absolute;
     width: 100px;
@@ -432,24 +485,30 @@
 #battlefield {
     background: url("../img/Fond/Battlefield.png") no-repeat center / cover;
 }
+
 #battlefield .battlefield-card {
     background: var(--color-bg-battlefield);
     border-radius: 25px;
 }
+
 #battlefield .battlefield-card .card-header {
     border-bottom: 4px solid var(--border-battlefield);
     color: var(--color-battlefield);
 }
+
 #battlefield .battlefield-card .card-header img {
     max-height: 30px;
 }
+
 #battlefield .battlefield-card .card-body {
     display: flex;
-    color: var(--color-black);
+    color: var(--color-white);
 }
+
 #battlefield .battlefield-card .card-body h6 {
     color: var(--color-battlefield);
 }
+
 #battlefield .battlefield-card .card-body img {
     height: 50px;
     object-fit: cover;
@@ -459,6 +518,37 @@
     max-height: 50px;
 }
 
-#battlefield .battlefield-card-assault img {
-    height: 100%;
+#battlefield .battlefield-card-assault {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.3)
+    ), url("../img/Battlefield/battlefield-v.png") no-repeat center / cover;
+    height: 320px;
+    position: relative;
+    z-index: 1;
+}
+
+#battlefield .battlefield-card-assault .medaille {
+    position: absolute;
+    width: 82px;
+    object-fit: cover;
+    right: 0;
+    top: 0;
+}
+
+#battlefield .battlefield-card-assault .logo-assault {
+    position: absolute;
+    width: 256px;
+    object-fit: cover;
+    left: 70px;
+}
+
+#battlefield .battlefield-card-assault h2 {
+    position: absolute;
+    width: 204px;
+    height: 42px;
+    left: 130px;
+    top: 200px;
+
+    color: #FFFFFF;
 }

@@ -21,12 +21,12 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img src="{{ asset('assets/img/R6/triangle-r6.png') }}" alt="">
-                                         LifeTime
+                                        LifeTime
                                     </div>
 
                                     <div class="col-md-9">
                                         <img src="{{ asset('assets/img/R6/time.png') }}" alt="time">
-                                         557h Play Time
+                                        557h Play Time
                                     </div>
                                 </div>
                             </h5>
@@ -142,7 +142,8 @@
                         </h5>
                         <div class="p-2">
                             <div class="progress bg-white bg-opacity-25 mt-2">
-                                <div class="progress-bar bg-white text-dark fw-bold" role="progressbar" style="width: 25%;"
+                                <div class="progress-bar bg-white text-dark fw-bold" role="progressbar"
+                                     style="width: 25%;"
                                      aria-valuenow="25"
                                      aria-valuemin="0" aria-valuemax="100">25%
                                 </div>
@@ -156,10 +157,18 @@
                                 <img src="{{ asset('assets/img/R6/medaille.png') }}" alt="">
                                 Meilleurs Opérateurs
                             </h5>
-                            <div class="card-body">
-                                <img src="{{ asset('assets/img/R6/mute.png') }}" alt="mute">
-                                <img src="{{ asset('assets/img/R6/hibana.png') }}" alt="hibana">
-                                <img src="{{ asset('assets/img/R6/lesion.png') }}" alt="lesion">
+                            <div class="card-body justify-content-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/R6/mute.png') }}" alt="mute">
+                                    </div>
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/R6/hibana.png') }}" alt="hibana">
+                                    </div>
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/R6/lesion.png') }}" alt="lesion">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

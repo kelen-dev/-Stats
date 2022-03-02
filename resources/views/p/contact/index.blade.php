@@ -6,51 +6,43 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <h2>
+                <h2 class="text-white">
                     Entrer en contact
                 </h2>
                 <p class="text-muted">
                     si vous rencontrez des problèmes avec ce service,<a href="mailto:{{ config('kelens.admin_support_email') }}"> veuillez demander de l'aide.</a>
                 </p>
-
+                <br>
                 <form action="{{ route('contact.index') }}" method="POST">
                     @csrf
                     <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-                        <label for="name" class="control-label">Nom</label>
+                        <label for="name" class="form-label text-white">Nom</label>
                         <input type="text" name="name" id="name" class="form-control" required="required" value="{{ old('name') }}">
                         {!! $errors->first('name', '<span class="help-block">:message</span>') !!}
                     </div>
 
                     <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-                        <label for="email" class="control-label">Adresse mail</label>
+                        <label for="email" class="form-label text-white">Adresse mail</label>
                         <input type="email" name="email" id="email" class="form-control" required="required" value="{{ old('email') }}">
                         {!! $errors->first('email', '<span class="help-block">:message</span>') !!}
                     </div>
 
                     <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-                        <label for="text" class="control-label sr-only">Message</label>
+                        <label for="text" class="form-label text-white">Message</label>
                         <textarea class="form-control" rows="10" cols="10" name="message" id="message"
                             required="required">{{ old('message') }}</textarea>
                         {!! $errors->first('message', '<span class="help-block">:message</span>') !!}
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <button class="btn btn-block btn-primary btn-grad" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
 
-            <div class="col-md-4 mb-5 mb-md-0">
-                <div class="banner">
-                    <div class="banner-icon">
-                        <i class="fas fa-info fa-2x mr-2"></i>
-                    </div>
-                    <div class="banner-title">
-                        <h2 class="h3">INFORMATIONS</h2>
-                    </div>
-                </div>
-                <div class="card" id="discord_widget">
-                    <div class="card-header">
+            <div class="col-md-4">
+                <div class="card bg-transparent" id="discord_widget">
+                    <div class="card-header bg-black">
                         <h5>
                             <i class="fab fa-discord mr-2"></i>
                             Discord
@@ -61,7 +53,7 @@
                             <div class="kelens-usersDiscord"></div>
                             <div class="kelens-discordInfo">
                                 <span class="kelens-js--discordCount"></span>
-                                <a href="https://discord.kelens.fr" target="_blank" class="btn btn-primary btn-grad">
+                                <a href="https://discord.gg/rg8RhnyRua" target="_blank" class="btn btn-primary btn-grad">
                                     Rejoindre
                                 </a>
                             </div>
@@ -76,7 +68,7 @@
         window.addEventListener("DOMContentLoaded", (event) => {
 
             // COMPTEUR DISCORD
-            var discord_key = "766660674453110814";
+            var discord_key = "919955996783308881";
             if ($('.kelens--js-discordCount').length && discord_key.length) {
                 {{-- Si erreur --}}
                     window.onerror = function (msg, url, ln) {

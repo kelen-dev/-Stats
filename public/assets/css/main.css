@@ -8,10 +8,9 @@
 
     background: linear-gradient(90deg, #000000 1%, #434343 99%);
 }
-
 #games .rainbow-six-siège:hover {
     z-index: 999;
-    transform: scaleX(2);
+    transform: scaleX(1.2);
     transition: ease-in-out 0.2s;
 }
 
@@ -30,6 +29,11 @@
 
     background: linear-gradient(90deg, #3c1053 1%, #ad5389 99%);
 }
+#games .fortnite:hover {
+    z-index: 999;
+    transform: scaleX(1.2);
+    transition: ease-in-out 0.2s;
+}
 
 #games .fortnite img {
     position: absolute;
@@ -46,6 +50,11 @@
     height: 285.92px;
 
     background: linear-gradient(90deg, #11998e 1%, #38ef7d 99%);
+}
+#games .league-of-legends:hover {
+    z-index: 999;
+    transform: scaleX(1.2);
+    transition: ease-in-out 0.2s;
 }
 
 #games .league-of-legends img {
@@ -64,6 +73,11 @@
 
     background: linear-gradient(90deg, #333333 1%, #dd1818 99%);
 }
+#games .valorant:hover {
+    z-index: 999;
+    transform: scaleX(1.2);
+    transition: ease-in-out 0.2s;
+}
 
 #games .valorant img {
     position: absolute;
@@ -80,6 +94,11 @@
     height: 285.92px;
 
     background: linear-gradient(90deg, #48c6ef 1%, #6f86d6 99%);
+}
+#games .battlefield:hover {
+    z-index: 999;
+    transform: scaleX(1.2);
+    transition: ease-in-out 0.2s;
 }
 
 #games .battlefield img {

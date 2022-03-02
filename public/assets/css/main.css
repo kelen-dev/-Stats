@@ -191,7 +191,7 @@
 }
 
 #r6 .r6-card-operators .card-body img {
-    height: 50px;
+    height: 80px;
     object-fit: cover;
 }
 
@@ -375,7 +375,7 @@
 }
 
 #lol .lol-card-champions .card-header img {
-    max-height: 50px;
+    max-height: 80px;
 }
 
 #lol .lol-card-champions .card-body {

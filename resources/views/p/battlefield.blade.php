@@ -35,69 +35,69 @@
                                     <div class="row">
                                         <div class="col col-md-2">
                                             <h6>
-                                                Headshot
+                                                Score/Min
                                             </h6>
-                                            <p>34.57%</p>
-
+                                            <p>265.64</p>
+                                            <br>
                                             <h6>
                                                 Deaths
                                             </h6>
-                                            <p>8,426</p>
+                                            <p>186</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
                                                 K/D
                                             </h6>
-                                            <p>1.14</p>
-
+                                            <p>0.69</p>
+                                            <br>
                                             <h6>
-                                                Total XP
+                                                Assists
                                             </h6>
-                                            <p>22,735,243</p>
+                                            <p>51</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
                                                 Kills
                                             </h6>
-                                            <p>9,564</p>
-
+                                            <p>128</p>
+                                            <br>
                                             <h6>
-                                                Headshot
+                                                Damage
                                             </h6>
-                                            <p>3,306</p>
+                                            <p>18,626</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
-                                                Melee Kills
+                                                Kills/Min
                                             </h6>
-                                            <p>207</p>
-
+                                            <p>0.46</p>
+                                            <br>
                                             <h6>
-                                                Matches
+                                                Heals
                                             </h6>
-                                            <p>2,597</p>
+                                            <p>26</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
                                                 Win %
                                             </h6>
-                                            <p>52.4%</p>
-
+                                            <p>50.0%</p>
+                                            <br>
                                             <h6>
-                                                Losses
+                                                Revives
                                             </h6>
-                                            <p>1,236</p>
+                                            <p>137</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
                                                 Wins
                                             </h6>
-                                            <p>1,360</p>
-
+                                            <p>15</p>
+                                            <br>
                                             <h6>
-                                                Blind Kills
+                                                Resupplie
                                             </h6>
-                                            <p>14</p>
+                                            <p>19</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,34 +132,34 @@
 
                                         <div class="col col-md-2">
                                             <h6 class="d-flex align-items-center">
-                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
-                                                Medic
+                                                <img src="{{ asset('assets/img/Battlefield/Recon.png') }}" alt="">
+                                                Recon
                                             </h6>
-                                            <p class="ps-3">44h 26m</p>
+                                            <p class="ps-3">20h 38m</p>
                                         </div>
 
                                         <div class="col col-md-2">
                                             <h6 class="d-flex align-items-center">
-                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
-                                                Medic
+                                                <img src="{{ asset('assets/img/Battlefield/Support.png') }}" alt="">
+                                                Support
                                             </h6>
-                                            <p class="ps-3">44h 26m</p>
+                                            <p class="ps-3">19h 24m</p>
                                         </div>
 
                                         <div class="col col-md-2">
                                             <h6 class="d-flex align-items-center">
-                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
-                                                Medic
+                                                <img src="{{ asset('assets/img/Battlefield/Tank.png') }}" alt="">
+                                                Tanker
                                             </h6>
-                                            <p class="ps-3">44h 26m</p>
+                                            <p class="ps-3">2h 05m</p>
                                         </div>
 
                                         <div class="col col-md-2">
                                             <h6 class="d-flex align-items-center">
-                                                <img src="{{ asset('assets/img/Battlefield/Medic.png') }}" alt="">
-                                                Medic
+                                                <img src="{{ asset('assets/img/Battlefield/Avion.png') }}" alt="">
+                                                Pilot
                                             </h6>
-                                            <p class="ps-3">44h 26m</p>
+                                            <p class="ps-3">1h 04m</p>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +188,9 @@
 
                     <div class="battlefield-card-assault">
                         <div class="card bg-transparent">
-                            <img src="{{ asset('assets/img/Battlefield/battlefield-v.png') }}" alt="">
+                            <img class="medaille" src="{{ asset('assets/img/Battlefield/medaille.png') }}" alt="">
+                            <img class="logo-assault" src="{{ asset('assets/img/Battlefield/Logo Assault.png') }}" alt="">
+                            <h2>Assault</h2>
                         </div>
                     </div>
                 </div>

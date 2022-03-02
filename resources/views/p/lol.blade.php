@@ -149,10 +149,18 @@
                                 <img src="{{ asset('assets/img/Lol/medaille.png') }}" alt="">
                                 Meilleurs Champions
                             </h5>
-                            <div class="card-body">
-                                <img class="m-1" src="{{ asset('assets/img/Lol/Champion1.png') }}" alt="mute">
-                                <img class="m-1" src="{{ asset('assets/img/Lol/Champion2.png') }}" alt="hibana">
-                                <img class="m-1" src="{{ asset('assets/img/Lol/Champion3.png') }}" alt="lesion">
+                            <div class="card-body justify-content-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="m-1" src="{{ asset('assets/img/Lol/Champion1.png') }}" alt="mute">
+                                    </div>
+                                    <div class="col">
+                                        <img class="m-1" src="{{ asset('assets/img/Lol/Champion2.png') }}" alt="hibana">
+                                    </div>
+                                    <div class="col">
+                                        <img class="m-1" src="{{ asset('assets/img/Lol/Champion3.png') }}" alt="lesion">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

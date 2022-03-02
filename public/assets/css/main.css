@@ -525,9 +525,7 @@
     ), url("../img/Battlefield/battlefield-v.png") no-repeat center / cover;
     height: 320px;
     position: relative;
-    z-index: 1;
 }
-
 #battlefield .battlefield-card-assault .medaille {
     position: absolute;
     width: 82px;
@@ -535,14 +533,12 @@
     right: 0;
     top: 0;
 }
-
 #battlefield .battlefield-card-assault .logo-assault {
     position: absolute;
     width: 256px;
     object-fit: cover;
     left: 70px;
 }
-
 #battlefield .battlefield-card-assault h2 {
     position: absolute;
     width: 204px;

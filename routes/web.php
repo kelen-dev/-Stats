@@ -23,18 +23,37 @@ Route::get('/maintenance', function () {
     return view('maintenance');
 })->name('maintenance');
 
+Route::get('/search-r6', function () {
+    return view('/p/search-r6');
+})->name('search-r6');
 Route::get('/r6', function () {
     return view('/p/r6');
 })->name('r6');
+
+Route::get('/search-fortnite', function () {
+    return view('/p/search-fortnite');
+})->name('search-fortnite');
 Route::get('/fortnite', function () {
     return view('/p/fortnite/index');
 })->name('fortnite');
+
+Route::get('/search-league-of-legends', function () {
+    return view('/p/search-lol');
+})->name('search-lol');
 Route::get('/league-of-legends', function () {
     return view('/p/lol');
 })->name('lol');
+
+Route::get('/searchvalorant', function () {
+    return view('/p/search-valorant');
+})->name('search-valorant');
 Route::get('/valorant', function () {
     return view('/p/valorant');
 })->name('valorant');
+
+Route::get('/search-battlefield', function () {
+    return view('/p/search-battlefield');
+})->name('search-battlefield');
 Route::get('/battlefield', function () {
     return view('/p/battlefield');
 })->name('battlefield');

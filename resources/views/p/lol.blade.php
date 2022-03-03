@@ -32,7 +32,7 @@
                             </h5>
                             <div class="card-body">
                                 <div class="container">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-md-2">
                                             <h6>
                                                 Damage/<br>Round
@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="col-md-2">
                                             <h6>
-                                                Kills/Round
+                                                Kills/<br>Round
                                             </h6>
                                             <p>0.8</p>
                                         </div>

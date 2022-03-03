@@ -7,26 +7,36 @@
         <h1>
             Join Us
         </h1>
-        <i class="fa-brands fa-discord"></i>
-        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-2x fa-discord p-1"></i>
+        <i class="fa-brands fa-2x fa-twitter p-1"></i>
     </div>
 
-    <section id="games">
+    <section class="py-5" id="games">
         <div class="d-flex">
             <div class="rainbow-six-siège">
-                <img src="{{ asset('assets/img/characters/Rainbow%20six%20siège.png') }}" alt="Rainbow Six Siège">
+                <a href="{{ route('search-r6') }}">
+                    <img src="{{ asset('assets/img/characters/Rainbow%20six%20siège.png') }}" alt="Rainbow Six Siège">
+                </a>
             </div>
             <div class="fortnite">
-                <img src="{{ asset('assets/img/characters/Fortnite.png') }}" alt="Fortnite">
+                <a href="{{ route('search-fortnite') }}">
+                    <img src="{{ asset('assets/img/characters/Fortnite.png') }}" alt="Fortnite">
+                </a>
             </div>
             <div class="league-of-legends">
-                <img src="{{ asset('assets/img/characters/League%20of%20legends.png') }}" alt="League Of Legends">
+                <a href="{{ route('search-lol') }}">
+                    <img src="{{ asset('assets/img/characters/League%20of%20legends.png') }}" alt="League Of Legends">
+                </a>
             </div>
             <div class="valorant">
-                <img src="{{ asset('assets/img/characters/Valorant.png') }}" alt="Valorant">
+                <a href="{{ route('search-valorant') }}">
+                    <img src="{{ asset('assets/img/characters/Valorant.png') }}" alt="Valorant">
+                </a>
             </div>
             <div class="battlefield">
-                <img src="{{ asset('assets/img/characters/Battlefield.png') }}" alt="Battlefield">
+                <a href="{{ route('search-battlefield') }}">
+                    <img src="{{ asset('assets/img/characters/Battlefield.png') }}" alt="Battlefield">
+                </a>
             </div>
         </div>
     </section>

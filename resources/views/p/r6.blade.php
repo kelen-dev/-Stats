@@ -137,7 +137,7 @@
 
                 <div class="col-md-4">
                     <div class="r6-card pb-4 mb-3">
-                        <h5 class="card-header pt-3 px-2">
+                        <h5 class="card-header py-4 px-2">
                             173 -> 174
                         </h5>
                         <div class="p-2">

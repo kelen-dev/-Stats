@@ -188,8 +188,8 @@
 
                     <div class="battlefield-card-assault">
                         <div class="card bg-transparent">
-                            <img class="medaille" src="{{ asset('assets/img/Battlefield/medaille.png') }}" alt="">
-                            <img class="logo-assault" src="{{ asset('assets/img/Battlefield/Logo Assault.png') }}" alt="">
+                            <img class="pt-2 medaille" src="{{ asset('assets/img/Battlefield/medaille.png') }}" alt="médaille">
+                            <img class="logo-assault" src="{{ asset('assets/img/Battlefield/Logo Assault.png') }}" alt="logo assault">
                             <h2>Assault</h2>
                         </div>
                     </div>

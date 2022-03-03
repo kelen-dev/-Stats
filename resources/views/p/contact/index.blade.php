@@ -22,27 +22,27 @@
                     </div>
 
                     <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-                        <label for="email" class="form-label text-white">Adresse mail</label>
+                        <label for="email" class="form-label text-white pt-2">Adresse mail</label>
                         <input type="email" name="email" id="email" class="form-control" required="required" value="{{ old('email') }}">
                         {!! $errors->first('email', '<span class="help-block">:message</span>') !!}
                     </div>
 
                     <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-                        <label for="text" class="form-label text-white">Message</label>
+                        <label for="text" class="form-label text-white pt-2">Message</label>
                         <textarea class="form-control" rows="10" cols="10" name="message" id="message"
                             required="required">{{ old('message') }}</textarea>
                         {!! $errors->first('message', '<span class="help-block">:message</span>') !!}
                     </div>
                     <br>
                     <div class="form-group">
-                        <button class="btn btn-block btn-primary btn-grad" type="submit">Envoyer</button>
+                        <button class="btn btn-block btn-principal" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
 
             <div class="col-md-4">
                 <div class="card bg-transparent" id="discord_widget">
-                    <div class="card-header bg-black">
+                    <div class="card-header bg-black mb-2">
                         <h5>
                             <i class="fab fa-discord mr-2"></i>
                             Discord
@@ -53,7 +53,7 @@
                             <div class="kelens-usersDiscord"></div>
                             <div class="kelens-discordInfo">
                                 <span class="kelens-js--discordCount"></span>
-                                <a href="https://discord.gg/rg8RhnyRua" target="_blank" class="btn btn-primary btn-grad">
+                                <a href="https://discord.gg/rg8RhnyRua" target="_blank" class="btn btn-principal">
                                     Rejoindre
                                 </a>
                             </div>

@@ -32,7 +32,7 @@
                             </h5>
                             <div class="card-body">
                                 <div class="container">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col col-md-2">
                                             <h6>
                                                 Damage/<br>Round
@@ -149,15 +149,17 @@
                                 <img src="{{ asset('assets/img/Valorant/medaille.png') }}" alt="">
                                 Meilleurs Opérateurs
                             </h5>
-                            <div class="card-body">
-                                <div class="col">
-                                    <img src="{{ asset('assets/img/Valorant/operator1.png') }}" alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ asset('assets/img/Valorant/operator2.png') }}" alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ asset('assets/img/Valorant/operator3.png') }}" alt="">
+                            <div class="card-body justify-content-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/Valorant/operator1.png') }}" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/Valorant/operator2.png') }}" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img src="{{ asset('assets/img/Valorant/operator3.png') }}" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>

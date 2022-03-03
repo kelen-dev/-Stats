@@ -112,6 +112,68 @@
 
 
 /* ==========================================================================
+   Search page:
+   ========================================================================== */
+#search-app main {
+    height: 100vh;
+}
+
+.search-bar {
+    position: absolute;
+    width: 50%;
+    left: 450px;
+    top: 500px;
+}
+
+.game-r6 {
+    background-color: var(--color-search-r6);
+}
+
+.game-fortnite {
+    background-color: var(--color-search-fortnite);
+}
+
+.game-lol {
+    background-color: var(--color-search-lol);
+}
+
+.game-valorant {
+    background-color: var(--color-search-valorant);
+}
+
+.game-battlefield {
+    background-color: var(--color-search-battlefield);
+}
+
+.game img {
+    height: 80px;
+    object-fit: contain;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.background-search-r6 {
+    background: url("../img/Fond/search-r6.jpg") no-repeat top / cover;
+}
+.background-search-fortnite {
+    background: url("../img/Fond/search-fortnite.jpg") no-repeat top / cover;
+}
+.background-search-lol {
+    background: url("../img/Fond/search-lol.jpg") no-repeat top / cover;
+}
+.background-search-valorant {
+    background: url("../img/Fond/search-valorant.jpg") no-repeat top / cover;
+}
+.background-search-battlefield {
+    background: url("../img/Fond/search-battlefield.png") no-repeat top / cover;
+}
+
+/* ==========================================================================
    R6 page:
    ========================================================================== */
 .r6-background {
@@ -268,7 +330,7 @@
 }
 
 #fortnite .fortnite-card-stats .card .card-header .nav:first-child {
-    border-radius: 25px 0 0 0;
+    border-radius: 25px 0 0 25px;
 }
 
 #fortnite .fortnite-card-stats .card .card-header .nav-tabs {
@@ -277,20 +339,23 @@
 
 #fortnite .fortnite-card-stats .card .card-header .nav-link {
     color: var(--color-fortnite);
+    font-weight: bold;
 }
 
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link:hover {
-    background-color: #5D9804;
+    background-color: var(--color-fortnite);
+    color: var(--color-black);
     border: none;
 }
 
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active {
-    background-color: #6AAF03;
+    background-color: var(--color-fortnite);
+    color: var(--color-black);
     border: none;
 }
 
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active:first-child {
-    border-radius: 25px 0 0 0;
+    border-radius: 25px 0 0 25px;
 }
 
 #fortnite .fortnite-card-stats .card-body {
@@ -375,7 +440,7 @@
 }
 
 #lol .lol-card-champions .card-header img {
-    max-height: 80px;
+    max-height: 50px;
 }
 
 #lol .lol-card-champions .card-body {
@@ -547,7 +612,7 @@
 }
 #battlefield .battlefield-card-assault .medaille {
     position: absolute;
-    width: 82px;
+    width: 60px;
     object-fit: cover;
     right: 0;
     top: 0;

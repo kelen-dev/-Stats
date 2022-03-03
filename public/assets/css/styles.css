@@ -24,6 +24,15 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     border: 0
 }
 
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-principale);
+}
+a:hover {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Lemon;
 }
@@ -66,6 +75,20 @@ body {
     color: var(--color-accent);
     text-align: left;
     background-color: var(--color-bg);
+    height: 100%;
+}
+
+.btn-principal {
+    background-color: var(--color-principale);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+.card-header {
+    border-radius: 25px !important;
 }
 
 article, aside, details, figcaption, figure, footer, form legend, header, hgroup, main, menu, nav, section {

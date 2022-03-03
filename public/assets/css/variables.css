@@ -190,6 +190,7 @@
     --color-contrast-higher-h: 210;
     --color-contrast-higher-s: 20%;
     --color-contrast-higher-l: 98%;
+    --color-principale: #9c0818;
     --color-r6: #D6C000;
     --color-fortnite: #028D2C;
     --color-lol: #4296BA;
@@ -199,4 +200,9 @@
     --color-battlefield: #87CEFA;
     --color-bg-battlefield: #1662BB;
     --border-battlefield: #0B1088;
+    --color-search-r6: #956C2E;
+    --color-search-fortnite: #BA3FCC;
+    --color-search-lol: #FBF68E;
+    --color-search-valorant: #C3BBD3;
+    --color-search-battlefield: #5A7DA3;
 }

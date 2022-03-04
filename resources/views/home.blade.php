@@ -12,6 +12,12 @@
     </div>
 
     <section class="py-5" id="games">
+        <div class="ps-4 title">
+            <h2 class="h3">
+                Games
+            </h2>
+            <p class="separator"></p>
+        </div>
         <div class="d-flex">
             <div class="rainbow-six-siège">
                 <a href="{{ route('search-r6') }}">

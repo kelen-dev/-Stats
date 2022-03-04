@@ -80,7 +80,7 @@ body {
 
 .btn-principal {
     background-color: var(--color-principale);
-    color: var(--color-black);
+    color: var(--color-white);
     font-weight: bold;
 }
 
@@ -243,4 +243,11 @@ img, svg, video {
 
 .w-full {
     width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }

@@ -1,0 +1,34 @@
+.header {
+    height: 100%;
+    width: 100%;
+
+    .navbar {
+        height: 100px;
+        padding: 0;
+        background-color: var(--color-navbar);
+    }
+    .navbar-collapse {
+        background-color: var(--color-contrast-lower)
+    }
+    .navbar-toggler {
+        margin-right: 3rem;
+
+        .navbar-toggler-icon {
+            color: var(--color-contrast-high)
+        }
+    }
+    a {
+        font-family: Merienda, cursive;
+        font-size: .875rem;
+        text-transform: uppercase;
+        font-weight: 700
+    }
+    .navbar-brand {
+        padding: 0 0 0 3rem;
+        margin: 0;
+
+        img {
+            max-width: 60px
+        }
+    }
+}

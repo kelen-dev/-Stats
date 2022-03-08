@@ -54,6 +54,13 @@
         min-height: 50px;
         color: var(--color-contrast-high);
 
+        &:hover{
+            &:after {
+                transform: scaleX(1);
+                transform-origin: left
+            }
+        }
+
         &.active {
             &:after {
                 content: "";
@@ -71,5 +78,11 @@
                 background: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
             }
         }
+    }
+    .icon[data-v-76671520] {
+        height: 0.875rem;
+        min-width: 0.875rem;
+        max-width: 2rem;
+        fill: var(--color-accent);
     }
 }

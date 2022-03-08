@@ -5,31 +5,31 @@
 @section('content')
 <div class="container home--page">
     <div class="wrapper">
-        <article>
+        <article class="py-5">
             <div class="title">
                 <h2 class="h3">
-                    Qui suis-je ?
+                    Qui sommes-nous ?
                 </h2>
                 <p class="separator" />
             </div>
             <h5>
-                Je m'appelle SEGURA Sean.
+                &Stats
             </h5>
             <p>
-                Je suis un développeur Web et un concepteur UX basé au Puy-en-Velay, en France.
+                Nous sommes un site de statistiques de jeux vidéos.
             </p>
             <p>
                 J'aime vraiment résoudre des problèmes ainsi que rendre les choses jolies et faciles à utiliser. Je ne peux pas m'empêcher d'apprendre de nouvelles choses. Le plus, le mieux.
                 J'aime aussi la photographie, un passe-temps que j'emmène depuis mon smartphone Realme 8 Pro. Oh, et la danse. J'ai une passion pour la danse !
             </p>
-            <div class="title">
+            <div class="title pt-4">
                 <h2 class="h3">
                     Qu'est-ce que je fais ?
                 </h2>
                 <p class="separator" />
             </div>
             <h5>
-                Je suis programmeur.
+                Nous sommes des gamers, designers et développeurs
             </h5>
             <p>
                 Pour le front-end, je travaille généralement avec Javascript, soit de manière autonome, soit avec des frameworks populaires tels que ReactJS et VueJS. Je rends également le Web joli en utilisant Sass, CSS et, chaque fois que nécessaire, n'importe lequel de leurs amis : Bootstrap, Bulma, etc.

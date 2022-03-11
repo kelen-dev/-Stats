@@ -179,19 +179,19 @@
 #search-app main {
   height: 100vh;
 }
-#search-app main .background-search-r6 {
+#search-app main.background-search-r6 {
   background: url("../img/Fond/search-r6.jpg") no-repeat top/cover;
 }
-#search-app main .background-search-fortnite {
+#search-app main.background-search-fortnite {
   background: url("../img/Fond/search-fortnite.jpg") no-repeat top/cover;
 }
-#search-app main .background-search-lol {
+#search-app main.background-search-lol {
   background: url("../img/Fond/search-lol.jpg") no-repeat top/cover;
 }
-#search-app main .background-search-valorant {
+#search-app main.background-search-valorant {
   background: url("../img/Fond/search-valorant.jpg") no-repeat top/cover;
 }
-#search-app main .background-search-battlefield {
+#search-app main.background-search-battlefield {
   background: url("../img/Fond/search-battlefield.png") no-repeat top/cover;
 }
 #search-app .search-bar {
@@ -228,6 +228,386 @@
   display: flex;
   align-items: center;
   font-size: larger;
+}
+
+/* ==========================================================================
+   R6 page:
+   ========================================================================== */
+.r6-background {
+  background: url("../img/Banners/r6.jpg") no-repeat top/cover;
+  height: 440px;
+}
+.r6-background .user-profil .img-profil {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 160px;
+  top: 490px;
+  background: #233053;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.r6-background .user-profil p {
+  position: absolute;
+  top: 530px;
+  left: 270px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#r6 {
+  background: url("../img/Fond/Fond R6.jpg") no-repeat center/cover;
+}
+#r6 .r6-card {
+  background: #1D2238;
+  border-radius: 25px;
+}
+#r6 .r6-card .card-header {
+  border-bottom: 4px solid var(--color-r6);
+  color: var(--color-r6);
+}
+#r6 .r6-card .card-header img {
+  max-height: 30px;
+}
+#r6 .r6-card .card-body {
+  display: flex;
+  color: var(--color-white);
+}
+#r6 .r6-card .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+#r6 .r6-card .card-body h6 {
+  color: var(--color-r6);
+}
+#r6 .r6-card-operators {
+  background: #1D2238;
+  border-radius: 25px;
+  color: var(--color-r6);
+  height: 280px;
+}
+#r6 .r6-card-operators .card-header {
+  border-bottom: 4px solid var(--color-r6);
+}
+#r6 .r6-card-operators .card-header img {
+  max-height: 50px;
+}
+#r6 .r6-card-operators .card-body {
+  display: flex;
+}
+#r6 .r6-card-operators .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   Fortnite page:
+   ========================================================================== */
+.fortnite-background {
+  background: url("../img/Banners/fortnite.jpg") no-repeat center/cover;
+  height: 440px;
+}
+.fortnite-background .user-profil .img-profil {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 160px;
+  top: 490px;
+  background: #69BF02;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.fortnite-background .user-profil p {
+  position: absolute;
+  top: 530px;
+  left: 270px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#fortnite {
+  background: url("../img/Fond/Fortnite.png") no-repeat center/cover;
+}
+#fortnite .fortnite-card {
+  background: #6AAF03;
+  border-radius: 25px;
+}
+#fortnite .fortnite-card .card-header {
+  border-bottom: 4px solid var(--color-fortnite);
+  color: var(--color-fortnite);
+}
+#fortnite .fortnite-card .card-header img {
+  max-height: 30px;
+}
+#fortnite .fortnite-card .card-body {
+  display: flex;
+  color: var(--color-black);
+}
+#fortnite .fortnite-card .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+#fortnite .fortnite-card .card-body h6 {
+  color: var(--color-fortnite);
+}
+#fortnite .fortnite-card-stats {
+  background: #6AAF03;
+  border-radius: 25px;
+  color: var(--color-fortnite);
+  max-height: 100%;
+}
+#fortnite .fortnite-card-stats .card .card-header {
+  border-bottom: 4px solid var(--color-fortnite);
+}
+#fortnite .fortnite-card-stats .card .card-header .nav-tabs {
+  border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav:first-child {
+  border-radius: 25px 0 0 25px;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link {
+  color: var(--color-fortnite);
+  font-weight: bold;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link:hover {
+  background-color: var(--color-fortnite);
+  color: var(--color-black);
+  border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active {
+  background-color: var(--color-fortnite);
+  color: var(--color-black);
+  border: none;
+}
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active:first-child {
+  border-radius: 25px 0 0 25px;
+}
+#fortnite .fortnite-card-stats .card .card-body {
+  display: flex;
+  color: var(--color-black);
+}
+#fortnite .fortnite-card-stats .card .card-body h6 {
+  color: var(--color-fortnite);
+}
+
+/* ==========================================================================
+   League of legends page:
+   ========================================================================== */
+.lol-background {
+  background: url("../img/Banners/lol.png") no-repeat center/cover;
+  height: 440px;
+}
+.lol-background .user-profil .img-profil {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 160px;
+  top: 490px;
+  background: var(--color-bg-lol);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.lol-background .user-profil p {
+  position: absolute;
+  top: 530px;
+  left: 270px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#lol {
+  background: url("../img/Fond/Lol.png") no-repeat center/cover;
+}
+#lol .lol-card {
+  background: var(--color-bg-lol);
+  border-radius: 25px;
+}
+#lol .lol-card .card-header {
+  border-bottom: 4px solid var(--color-lol);
+  color: var(--color-lol);
+}
+#lol .lol-card .card-header img {
+  max-height: 30px;
+}
+#lol .lol-card .card-body {
+  display: flex;
+  color: var(--color-white);
+}
+#lol .lol-card .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+#lol .lol-card .card-body h6 {
+  color: var(--color-lol);
+}
+#lol .lol-card-champions {
+  background: var(--color-bg-lol);
+  border-radius: 25px;
+  color: var(--color-lol);
+  height: 100%;
+}
+#lol .lol-card-champions .card-header {
+  border-bottom: 4px solid var(--color-lol);
+}
+#lol .lol-card-champions .card-header img {
+  max-height: 50px;
+}
+#lol .lol-card-champions .card-body {
+  display: flex;
+}
+#lol .lol-card-champions .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   Valorant page:
+   ========================================================================== */
+.valorant-background {
+  background: url("../img/Banners/Valorant.jpg") no-repeat center/cover;
+  height: 440px;
+}
+.valorant-background .user-profil .img-profil {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 160px;
+  top: 490px;
+  background: var(--color-bg-valorant);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.valorant-background .user-profil p {
+  position: absolute;
+  top: 530px;
+  left: 270px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#valorant {
+  background: url("../img/Fond/Valorant.png") no-repeat center/cover;
+}
+#valorant .valorant-card {
+  background: var(--color-bg-valorant);
+  border-radius: 25px;
+}
+#valorant .valorant-card .card-header {
+  border-bottom: 4px solid var(--color-valorant);
+  color: var(--color-valorant);
+}
+#valorant .valorant-card .card-header img {
+  max-height: 30px;
+}
+#valorant .valorant-card .card-body {
+  display: flex;
+  color: var(--color-white);
+}
+#valorant .valorant-card .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+#valorant .valorant-card .card-body h6 {
+  color: var(--color-valorant);
+}
+#valorant .valorant-card-operators {
+  background: var(--color-bg-valorant);
+  border-radius: 25px;
+  color: var(--color-valorant);
+  height: 100%;
+}
+#valorant .valorant-card-operators .card-header {
+  border-bottom: 4px solid var(--color-valorant);
+}
+#valorant .valorant-card-operators .card-header img {
+  max-height: 50px;
+}
+#valorant .valorant-card-operators .card-body {
+  display: flex;
+}
+#valorant .valorant-card-operators .card-body img {
+  height: 80px;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   Battlefield page:
+   ========================================================================== */
+.battlefield-background {
+  background: url("../img/Banners/Battlefield.jpg") no-repeat top/cover;
+  height: 440px;
+}
+.battlefield-background .user-profil .img-profil {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 160px;
+  top: 490px;
+  background: var(--color-bg-battlefield);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.battlefield-background .user-profil p {
+  position: absolute;
+  top: 530px;
+  left: 270px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#battlefield {
+  background: url("../img/Fond/Battlefield.png") no-repeat center/cover;
+}
+#battlefield .battlefield-card {
+  background: var(--color-bg-battlefield);
+  border-radius: 25px;
+}
+#battlefield .battlefield-card .card-header {
+  border-bottom: 4px solid var(--border-battlefield);
+  color: var(--color-battlefield);
+}
+#battlefield .battlefield-card .card-header img {
+  max-height: 30px;
+}
+#battlefield .battlefield-card .card-body {
+  display: flex;
+  color: var(--color-white);
+}
+#battlefield .battlefield-card .card-body img {
+  height: 50px;
+  object-fit: cover;
+}
+#battlefield .battlefield-card .card-body h6 {
+  color: var(--color-battlefield);
+}
+#battlefield .battlefield-card-level .card-header img {
+  max-height: 50px;
+}
+#battlefield .battlefield-card-assault {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../img/Battlefield/battlefield-v.png") no-repeat center/cover;
+  height: 320px;
+  position: relative;
+}
+#battlefield .battlefield-card-assault .medaille {
+  position: absolute;
+  width: 60px;
+  object-fit: cover;
+  right: 0;
+  top: 0;
+}
+#battlefield .battlefield-card-assault .logo-assault {
+  position: absolute;
+  width: 256px;
+  object-fit: cover;
+  left: 70px;
+}
+#battlefield .battlefield-card-assault h2 {
+  position: absolute;
+  width: 204px;
+  height: 42px;
+  left: 130px;
+  top: 200px;
+  color: #FFFFFF;
 }
 
 /* ==========================================================================

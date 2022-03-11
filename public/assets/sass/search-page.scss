@@ -2,19 +2,23 @@
     main {
         height: 100vh;
 
-        .background-search-r6 {
+        &.background-search-r6 {
             background: url("../img/Fond/search-r6.jpg") no-repeat top / cover;
         }
-        .background-search-fortnite {
+
+        &.background-search-fortnite {
             background: url("../img/Fond/search-fortnite.jpg") no-repeat top / cover;
         }
-        .background-search-lol {
+
+        &.background-search-lol {
             background: url("../img/Fond/search-lol.jpg") no-repeat top / cover;
         }
-        .background-search-valorant {
+
+        &.background-search-valorant {
             background: url("../img/Fond/search-valorant.jpg") no-repeat top / cover;
         }
-        .background-search-battlefield {
+
+        &.background-search-battlefield {
             background: url("../img/Fond/search-battlefield.png") no-repeat top / cover;
         }
     }
@@ -28,28 +32,36 @@
         .game-r6 {
             background-color: var(--color-search-r6);
         }
+
         .game-fortnite {
             background-color: var(--color-search-fortnite);
         }
+
         .game-lol {
             background-color: var(--color-search-lol);
         }
+
         .game-valorant {
             background-color: var(--color-search-valorant);
         }
+
         .game-battlefield {
             background-color: var(--color-search-battlefield);
         }
+
         .game-r6,
         .game-fortnite,
         .game-lol,
         .game-valorant,
         .game-battlefield {
-            .game img {
-                height: 80px;
-                object-fit: contain;
+            .game {
+                img {
+                    height: 80px;
+                    object-fit: contain;
+                }
             }
         }
+
         .search {
             background-color: rgba(255, 255, 255, .5);
             display: flex;

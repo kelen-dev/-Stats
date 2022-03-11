@@ -74,11 +74,9 @@
         <link href="{{ asset('assets/css/variables.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/player.css') }}" rel="stylesheet">
-        <link href="{{ asset('assets/css/navbar.css') }}" rel="stylesheet">
-        <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/index.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/widgets.css') }}" rel="stylesheet">
-        <link href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
         @stack('styles')
     </head>
 

@@ -1,0 +1,82 @@
+.r6-background {
+    background: url("../img/Banners/r6.jpg") no-repeat top / cover;
+    height: 440px;
+
+    .user-profil {
+        .img-profil {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 160px;
+            top: 490px;
+
+            background: #233053;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+        }
+
+        p {
+            position: absolute;
+            top: 530px;
+            left: 270px;
+            color: #FF0000;
+            font-weight: bold;
+        }
+    }
+}
+
+#r6 {
+    background: url("../img/Fond/Fond R6.jpg") no-repeat center / cover;
+
+    .r6-card {
+        background: #1D2238;
+        border-radius: 25px;
+
+        .card-header {
+            border-bottom: 4px solid var(--color-r6);
+            color: var(--color-r6);
+
+            img {
+                max-height: 30px;
+            }
+        }
+
+        .card-body {
+            display: flex;
+            color: var(--color-white);
+
+            img {
+                height: 80px;
+                object-fit: cover;
+            }
+
+            h6 {
+                color: var(--color-r6);
+            }
+        }
+    }
+
+    .r6-card-operators {
+        background: #1D2238;
+        border-radius: 25px;
+        color: var(--color-r6);
+        height: 280px;
+
+        .card-header {
+            border-bottom: 4px solid var(--color-r6);
+
+            img {
+                max-height: 50px;
+            }
+        }
+
+        .card-body {
+            display: flex;
+
+            img {
+                height: 80px;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.battlefield-background {
+    background: url("../img/Banners/Battlefield.jpg") no-repeat top / cover;
+    height: 440px;
+
+    .user-profil {
+        .img-profil {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 160px;
+            top: 490px;
+
+            background: var(--color-bg-battlefield);
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+        }
+
+        p {
+            position: absolute;
+            top: 530px;
+            left: 270px;
+            color: #FF0000;
+            font-weight: bold;
+        }
+    }
+}
+
+#battlefield {
+    background: url("../img/Fond/Battlefield.png") no-repeat center / cover;
+
+    .battlefield-card {
+        background: var(--color-bg-battlefield);
+        border-radius: 25px;
+
+        .card-header {
+            border-bottom: 4px solid var(--border-battlefield);
+            color: var(--color-battlefield);
+
+            img {
+                max-height: 30px;
+            }
+        }
+
+        .card-body {
+            display: flex;
+            color: var(--color-white);
+
+            img {
+                height: 50px;
+                object-fit: cover;
+            }
+
+            h6 {
+                color: var(--color-battlefield);
+            }
+        }
+    }
+
+    .battlefield-card-level {
+        .card-header {
+            img {
+                max-height: 50px;
+            }
+        }
+    }
+
+    .battlefield-card-assault {
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.3)
+        ), url("../img/Battlefield/battlefield-v.png") no-repeat center / cover;
+        height: 320px;
+        position: relative;
+
+        .medaille {
+            position: absolute;
+            width: 60px;
+            object-fit: cover;
+            right: 0;
+            top: 0;
+        }
+
+        .logo-assault {
+            position: absolute;
+            width: 256px;
+            object-fit: cover;
+            left: 70px;
+        }
+
+        h2 {
+            position: absolute;
+            width: 204px;
+            height: 42px;
+            left: 130px;
+            top: 200px;
+
+            color: #FFFFFF;
+        }
+    }
+}

@@ -374,6 +374,9 @@
   color: var(--color-black);
   border: none;
 }
+#fortnite .fortnite-card-stats .card .card-header .nav .nav-link:hover:first-child {
+  border-radius: 25px 0 0 25px;
+}
 #fortnite .fortnite-card-stats .card .card-header .nav .nav-link.active {
   background-color: var(--color-fortnite);
   color: var(--color-black);

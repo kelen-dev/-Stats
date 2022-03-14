@@ -83,6 +83,10 @@
                             background-color: var(--color-fortnite);
                             color: var(--color-black);
                             border: none;
+
+                            &:first-child {
+                                border-radius: 25px 0 0 25px;
+                            }
                         }
 
                         &.active {

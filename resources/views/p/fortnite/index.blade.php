@@ -19,12 +19,12 @@
                         <div class="card bg-transparent">
                             <h5 class="card-header">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 p-0">
                                         <img src="{{ asset('assets/img/Fortnite/triangle.png') }}" alt="">
                                         LifeTime
                                     </div>
 
-                                    <div class="col-md-9 d-flex align-items-center">
+                                    <div class="col-md-9 d-flex align-items-center p-0">
                                         <img class="me-1" src="{{ asset('assets/img/R6/time.png') }}" alt="time">
                                         6d 22h 32m Play Time
                                     </div>

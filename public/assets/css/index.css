@@ -89,11 +89,15 @@
   transform: scaleX(1.2);
   transition: ease-in-out 0.2s;
 }
+#games .rainbow-six-siège:hover .content {
+  opacity: 1;
+}
 #games .rainbow-six-siège img {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 10%;
+  top: 29px;
   object-fit: contain;
 }
 #games .fortnite {
@@ -106,6 +110,9 @@
   z-index: 999;
   transform: scaleX(1.2);
   transition: ease-in-out 0.2s;
+}
+#games .fortnite:hover .content {
+  opacity: 1;
 }
 #games .fortnite img {
   position: absolute;
@@ -126,6 +133,9 @@
   transform: scaleX(1.2);
   transition: ease-in-out 0.2s;
 }
+#games .league-of-legends:hover .content {
+  opacity: 1;
+}
 #games .league-of-legends img {
   position: absolute;
   width: 100%;
@@ -144,6 +154,9 @@
   z-index: 999;
   transform: scaleX(1.2);
   transition: ease-in-out 0.2s;
+}
+#games .valorant:hover .content {
+  opacity: 1;
 }
 #games .valorant img {
   position: absolute;
@@ -164,6 +177,9 @@
   transform: scaleX(1.2);
   transition: ease-in-out 0.2s;
 }
+#games .battlefield:hover .content {
+  opacity: 1;
+}
 #games .battlefield img {
   position: absolute;
   width: 100%;
@@ -171,6 +187,10 @@
   left: 10%;
   top: 29px;
   object-fit: contain;
+}
+#games .content {
+  opacity: 0;
+  transition: all 0.5s;
 }
 
 /* ==========================================================================

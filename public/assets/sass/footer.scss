@@ -28,73 +28,103 @@ footer {
             transition-timing-function: ease;
             transition-delay: 0s;
 
-            &:hover {
-                transform: scale(1.15);
-            }
+            .rounded-social-buttons {
+                text-align: center;
 
-            ul {
-                margin: 0;
-                padding: 0;
-            }
+                a {
+                    &:hover {
+                        transform: scale(1.15);
+                    }
+                }
 
-            li {
-                display: inline;
-                margin: 0;
-                padding: 0;
-            }
+                .social-button {
+                    display: inline-block;
+                    position: relative;
+                    cursor: pointer;
+                    width: 3.125rem;
+                    height: 3.125rem;
+                    border: 0.125rem solid transparent;
+                    padding: 0;
+                    text-decoration: none;
+                    text-align: center;
+                    color: #fefefe;
+                    font-size: 1.5625rem;
+                    font-weight: normal;
+                    line-height: 2em;
+                    border-radius: 1.6875rem;
+                    transition: all 0.5s ease;
+                    margin-right: 0.25rem;
+                    margin-bottom: 0.25rem;
 
-            a {
-                border-bottom: 0 solid rgba(0, 0, 0, 0.95);
-                border-radius: 4px;
-                box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 24px 24px rgba(0, 0, 0, 0), 0 36px 36px rgba(0, 0, 0, 0), 0 64px 64px rgba(0, 0, 0, 0), 0 64px 128px rgba(0, 0, 0, 0), 0 120px 0 rgba(0, 0, 0, 0), 0 86px 8px 6px rgba(0, 0, 0, 0);
-                display: inline-block;
-                height: 30px;
-                padding: 20px;
-                position: relative;
-                transition: 0.2s ease-in;
-                width: 30px;
+                    &:hover,
+                    &:focus {
+                        -webkit-transform: rotate(360deg);
+                        -ms-transform: rotate(360deg);
+                        transform: rotate(360deg);
+                    }
 
-                &:hover {
-                    transform: translateY(-4px);
-                    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.05), 0 24px 24px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.05), 0 64px 64px rgba(0, 0, 0, 0.15), 0 64px 128px rgba(0, 0, 0, 0.15), 0 86px 8px 6px rgba(14, 186, 199, 0.25), 0 83px 4px 0px rgba(14, 186, 199, 0.95);
+                    &.facebook {
+                        background: #3b5998;
 
-                    svg {
-                        path,
-                        circle {
-                            fill: #0ebac7;
+                        &:hover,
+                        &:focus {
+                            color: #3b5998;
+                            background: #fefefe;
+                            border-color: #3b5998;
                         }
+                    }
 
-                        &.glow {
-                            filter: url("data:image/svg+xml;charset=utf-8,<svg xmlns=\"http://www.w3.org/2000/svg\"><f…ter id=\"filter\"><feGaussianBlur stdDeviation=\"10\" /></filter></svg>#filter");
-                            filter: blur(2px);
+                    &.twitter {
+                        background: #55acee;
 
-                            path,
-                            circle {
-                                fill: rgba(14, 186, 199, 0.6);
-                            }
+                        &:hover,
+                        &:focus {
+                            color: #55acee;
+                            background: #fefefe;
+                            border-color: #55acee;
+                        }
+                    }
+
+                    &.linkedin {
+                        background: #007bb5;
+
+                        &:hover,
+                        &:focus {
+                            color: #007bb5;
+                            background: #fefefe;
+                            border-color: #007bb5;
+                        }
+                    }
+
+                    &.youtube {
+                        background: #bb0000;
+
+                        &:hover,
+                        &:focus {
+                            color: #bb0000;
+                            background: #fefefe;
+                            border-color: #bb0000;
+                        }
+                    }
+
+                    &.instagram {
+                        background: #125688;
+
+                        &:hover,
+                        &:focus {
+                            color: #125688;
+                            background: #fefefe;
+                            border-color: #125688;
                         }
                     }
                 }
 
-                svg {
-                    left: 20px;
-                    position: absolute;
-                    top: 20px;
-                    height: 30px;
-                    width: 30px;
-
-                    path,
-                    circle {
-                        fill: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
-                        transition: 0.2s ease-in;
-                    }
-
-                    &.glow {
-                        path,
-                        circle {
-                            fill: rgba(0, 0, 0, 0);
-                        }
-                    }
+                .fa-twitter,
+                .fa-facebook-f,
+                .fa-linkedin,
+                .fa-youtube,
+                .fa-instagram {
+                    font-size: 25px;
                 }
             }
         }

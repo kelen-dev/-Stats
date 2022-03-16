@@ -38,7 +38,39 @@
                                                 Score/Min
                                             </h6>
                                             <p>265.64</p>
-                                            <br>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                K/D
+                                            </h6>
+                                            <p>0.69</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Kills
+                                            </h6>
+                                            <p>128</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Kills/Min
+                                            </h6>
+                                            <p>0.46</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Win %
+                                            </h6>
+                                            <p>50.0%</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Wins
+                                            </h6>
+                                            <p>15</p>
+                                        </div>
+
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Deaths
                                             </h6>
@@ -46,21 +78,11 @@
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
-                                                K/D
-                                            </h6>
-                                            <p>0.69</p>
-                                            <br>
-                                            <h6>
                                                 Assists
                                             </h6>
                                             <p>51</p>
                                         </div>
                                         <div class="col col-md-2">
-                                            <h6>
-                                                Kills
-                                            </h6>
-                                            <p>128</p>
-                                            <br>
                                             <h6>
                                                 Damage
                                             </h6>
@@ -68,32 +90,17 @@
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
-                                                Kills/Min
-                                            </h6>
-                                            <p>0.46</p>
-                                            <br>
-                                            <h6>
                                                 Heals
                                             </h6>
                                             <p>26</p>
                                         </div>
                                         <div class="col col-md-2">
                                             <h6>
-                                                Win %
-                                            </h6>
-                                            <p>50.0%</p>
-                                            <br>
-                                            <h6>
                                                 Revives
                                             </h6>
                                             <p>137</p>
                                         </div>
                                         <div class="col col-md-2">
-                                            <h6>
-                                                Wins
-                                            </h6>
-                                            <p>15</p>
-                                            <br>
                                             <h6>
                                                 Resupplie
                                             </h6>

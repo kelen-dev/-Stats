@@ -33,74 +33,74 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Damage/<br>Round
                                             </h6>
                                             <p>184.64</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 K/D
                                             </h6>
                                             <p>1.33</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills
                                             </h6>
                                             <p>3,961</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills/<br>Round
                                             </h6>
                                             <p>0.8</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Win %
                                             </h6>
                                             <p>59.8%</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Wins
                                             </h6>
                                             <p>137</p>
                                         </div>
 
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Deaths
                                             </h6>
                                             <p>3,519</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Assists
                                             </h6>
                                             <p>1,318</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Headshot
                                             </h6>
                                             <p>2,548</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Clutches
                                             </h6>
                                             <p>333</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Aces
                                             </h6>
                                             <p>4</p>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 First Bloods
                                             </h6>

@@ -33,67 +33,74 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Headshot
                                             </h6>
                                             <p>34.57%</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                K/D
+                                            </h6>
+                                            <p>1.14</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Kills
+                                            </h6>
+                                            <p>9,564</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Melee Kills
+                                            </h6>
+                                            <p>207</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Win %
+                                            </h6>
+                                            <p>52.4%</p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Wins
+                                            </h6>
+                                            <p>1,360</p>
+                                        </div>
 
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Deaths
                                             </h6>
                                             <p>8,426</p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                K/D
-                                            </h6>
-                                            <p>1.14</p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Total XP
                                             </h6>
                                             <p>22,735,243</p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Kills
-                                            </h6>
-                                            <p>9,564</p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Headshot
                                             </h6>
                                             <p>3,306</p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Melee Kills
-                                            </h6>
-                                            <p>207</p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Matches
                                             </h6>
                                             <p>2,597</p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Win %
-                                            </h6>
-                                            <p>52.4%</p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Losses
                                             </h6>
                                             <p>1,236</p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Wins
-                                            </h6>
-                                            <p>1,360</p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Blind Kills
                                             </h6>

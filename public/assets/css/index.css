@@ -13,6 +13,7 @@
 }
 .header .navbar-collapse {
   background-color: var(--color-contrast-lower);
+  z-index: 1;
 }
 .header .navbar-toggler {
   margin-right: 3rem;
@@ -78,6 +79,12 @@
 /* ==========================================================================
    Home:
    ========================================================================== */
+.join-us i:hover {
+  color: var(--color-white);
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
 #games .rainbow-six-siège {
   position: relative;
   width: 20%;
@@ -682,8 +689,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button {
   line-height: 2em;
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
-  margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+  margin-right: 0.5rem;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
@@ -699,7 +705,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.f
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.facebook:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
   background: #fefefe;
-  border-color: #3b5998;
+  border: 0.4rem solid #3b5998;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter {
   background: #55acee;
@@ -710,7 +716,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.t
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
   background: #fefefe;
-  border-color: #55acee;
+  border: 0.4rem solid #55acee;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
@@ -721,7 +727,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.l
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
-  border-color: #007bb5;
+  border: 0.4rem solid #007bb5;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube {
   background: #bb0000;
@@ -732,7 +738,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.y
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
   background: #fefefe;
-  border-color: #bb0000;
+  border: 0.4rem solid #bb0000;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram {
   background: #405de6;
@@ -744,7 +750,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.i
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram:focus {
   color: #405de6;
   background: #fefefe;
-  border-color: #125688;
+  border: 0.4rem solid #125688;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord {
   background: #7289DA;
@@ -755,7 +761,7 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.d
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord:focus {
   color: #7289DA;
   background: #fefefe;
-  border-color: #7289DA;
+  border: 0.4rem solid #7289DA;
 }
 
 /*# sourceMappingURL=index.css.map */

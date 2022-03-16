@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 1060px) {
     .header .navbar {
         height: 100px;
     }
@@ -13,6 +13,11 @@
 
     .header .navbar-collapse {
         background-color: transparent !important;
+    }
+
+    .header .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
     }
 }
 

@@ -3,7 +3,7 @@
 @section('title', 'Accueil')
 
 @section('content')
-    <div class="container text-center pt-4">
+    <div class="container text-center pt-4 join-us">
         <h1>
             Join Us
         </h1>

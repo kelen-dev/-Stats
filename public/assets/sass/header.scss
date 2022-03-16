@@ -9,7 +9,8 @@
     }
 
     .navbar-collapse {
-        background-color: var(--color-contrast-lower)
+        background-color: var(--color-contrast-lower);
+        z-index: 1;
     }
 
     .navbar-toggler {

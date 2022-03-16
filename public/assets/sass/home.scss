@@ -3,7 +3,8 @@
         &:hover {
             color: var(--color-white);
             cursor: pointer;
-            transition: ease-in-out .5s;
+            transition: all .5s;
+            animation: 0.4s ease-in-out 1s grow;
         }
     }
 }
@@ -21,7 +22,8 @@
             transition: ease-in-out 0.2s;
 
             .content {
-                opacity:1;
+                opacity: 1;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             }
         }
 
@@ -47,7 +49,8 @@
             transition: ease-in-out 0.2s;
 
             .content {
-                opacity:1;
+                opacity: 1;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             }
         }
 
@@ -73,7 +76,8 @@
             transition: ease-in-out 0.2s;
 
             .content {
-                opacity:1;
+                opacity: 1;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             }
         }
 
@@ -100,7 +104,8 @@
             transition: ease-in-out 0.2s;
 
             .content {
-                opacity:1;
+                opacity: 1;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             }
         }
 
@@ -127,7 +132,8 @@
             transition: ease-in-out 0.2s;
 
             .content {
-                opacity:1;
+                opacity: 1;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
             }
         }
 
@@ -141,8 +147,8 @@
         }
     }
 
-    .content{
-        opacity:0;
+    .content {
+        opacity: 0;
         transition: all .5s;
     }
 }

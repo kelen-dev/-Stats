@@ -1,3 +1,13 @@
+.join-us {
+    i {
+        &:hover {
+            color: var(--color-white);
+            cursor: pointer;
+            transition: ease-in-out .5s;
+        }
+    }
+}
+
 #games {
     .rainbow-six-siège {
         position: relative;

@@ -53,8 +53,7 @@ footer {
                     line-height: 2em;
                     border-radius: 1.6875rem;
                     transition: all 0.5s ease;
-                    margin-right: 0.25rem;
-                    margin-bottom: 0.25rem;
+                    margin-right: 0.5rem;
 
                     &:hover,
                     &:focus {
@@ -73,7 +72,7 @@ footer {
                         &:focus {
                             color: #3b5998;
                             background: #fefefe;
-                            border-color: #3b5998;
+                            border: 0.4rem solid #3b5998;
                         }
                     }
 
@@ -87,7 +86,7 @@ footer {
                         &:focus {
                             color: #55acee;
                             background: #fefefe;
-                            border-color: #55acee;
+                            border: 0.4rem solid #55acee;
                         }
                     }
 
@@ -101,7 +100,7 @@ footer {
                         &:focus {
                             color: #007bb5;
                             background: #fefefe;
-                            border-color: #007bb5;
+                            border: 0.4rem solid #007bb5;
                         }
                     }
 
@@ -115,7 +114,7 @@ footer {
                         &:focus {
                             color: #bb0000;
                             background: #fefefe;
-                            border-color: #bb0000;
+                            border: 0.4rem solid #bb0000;
                         }
                     }
 
@@ -130,7 +129,7 @@ footer {
                         &:focus {
                             color: rgba(64, 93, 230, 1);
                             background: #fefefe;
-                            border-color: #125688;
+                            border: 0.4rem solid #125688;
                         }
                     }
 
@@ -144,7 +143,7 @@ footer {
                         &:focus {
                             color: #7289DA;
                             background: #fefefe;
-                            border-color: #7289DA;
+                            border: 0.4rem solid #7289DA;
                         }
                     }
                 }

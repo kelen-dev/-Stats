@@ -29,7 +29,8 @@ footer {
             transition-delay: 0s;
 
             .rounded-social-buttons {
-                text-align: center;
+                display: flex;
+                justify-content: center;
 
                 a {
                     &:hover {
@@ -43,7 +44,6 @@ footer {
                     cursor: pointer;
                     width: 3.125rem;
                     height: 3.125rem;
-                    border: 0.125rem solid transparent;
                     padding: 0;
                     text-decoration: none;
                     text-align: center;
@@ -65,6 +65,9 @@ footer {
 
                     &.facebook {
                         background: #3b5998;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
                         &:hover,
                         &:focus {
@@ -76,6 +79,9 @@ footer {
 
                     &.twitter {
                         background: #55acee;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
                         &:hover,
                         &:focus {
@@ -87,6 +93,9 @@ footer {
 
                     &.linkedin {
                         background: #007bb5;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
                         &:hover,
                         &:focus {
@@ -98,6 +107,9 @@ footer {
 
                     &.youtube {
                         background: #bb0000;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
                         &:hover,
                         &:focus {
@@ -108,23 +120,33 @@ footer {
                     }
 
                     &.instagram {
-                        background: #125688;
+                        background: rgb(64,93,230);
+                        background: linear-gradient(190deg, rgba(64,93,230,1) 0%, rgba(88,81,219,1) 2%, rgba(131,58,180,1) 19%, rgba(193,53,132,1) 52%, rgba(225,48,108,1) 61%, rgba(253,29,29,1) 70%, rgba(245,96,64,1) 80%, rgba(247,119,55,1) 86%, rgba(252,175,69,1) 99%, rgba(255,220,128,1) 100%);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
                         &:hover,
                         &:focus {
-                            color: #125688;
+                            color: rgba(64, 93, 230, 1);
                             background: #fefefe;
                             border-color: #125688;
                         }
                     }
-                }
 
-                .fa-twitter,
-                .fa-facebook-f,
-                .fa-linkedin,
-                .fa-youtube,
-                .fa-instagram {
-                    font-size: 25px;
+                    &.discord {
+                        background: #7289DA;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover,
+                        &:focus {
+                            color: #7289DA;
+                            background: #fefefe;
+                            border-color: #7289DA;
+                        }
+                    }
                 }
             }
         }

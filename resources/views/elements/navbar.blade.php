@@ -7,7 +7,7 @@
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbar">
+    <div class="collapse navbar-collapse p-4 justify-content-end" id="navbar">
         <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
                 <a class="nav-link @if(url()->route('home')) active @endif" aria-current="page"

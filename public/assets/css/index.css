@@ -82,7 +82,8 @@
 .join-us i:hover {
   color: var(--color-white);
   cursor: pointer;
-  transition: ease-in-out 0.5s;
+  transition: all 0.5s;
+  animation: 0.4s ease-in-out 1s grow;
 }
 
 #games .rainbow-six-siège {
@@ -98,6 +99,7 @@
 }
 #games .rainbow-six-siège:hover .content {
   opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }
 #games .rainbow-six-siège img {
   position: absolute;
@@ -120,6 +122,7 @@
 }
 #games .fortnite:hover .content {
   opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }
 #games .fortnite img {
   position: absolute;
@@ -142,6 +145,7 @@
 }
 #games .league-of-legends:hover .content {
   opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }
 #games .league-of-legends img {
   position: absolute;
@@ -164,6 +168,7 @@
 }
 #games .valorant:hover .content {
   opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }
 #games .valorant img {
   position: absolute;
@@ -186,6 +191,7 @@
 }
 #games .battlefield:hover .content {
   opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }
 #games .battlefield img {
   position: absolute;

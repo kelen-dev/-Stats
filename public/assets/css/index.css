@@ -661,7 +661,8 @@ footer .footer--top .social-media-links {
   transition-delay: 0s;
 }
 footer .footer--top .social-media-links .rounded-social-buttons {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons a:hover {
   transform: scale(1.15);
@@ -672,7 +673,6 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button {
   cursor: pointer;
   width: 3.125rem;
   height: 3.125rem;
-  border: 0.125rem solid transparent;
   padding: 0;
   text-decoration: none;
   text-align: center;
@@ -692,6 +692,9 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button:h
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.facebook {
   background: #3b5998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.facebook:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
@@ -700,6 +703,9 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.f
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter {
   background: #55acee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
@@ -708,6 +714,9 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.t
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
@@ -716,6 +725,9 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.l
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube {
   background: #bb0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
@@ -723,19 +735,27 @@ footer .footer--top .social-media-links .rounded-social-buttons .social-button.y
   border-color: #bb0000;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram {
-  background: #125688;
+  background: #405de6;
+  background: linear-gradient(190deg, #405de6 0%, #5851db 2%, #833ab4 19%, #c13584 52%, #e1306c 61%, #fd1d1d 70%, #f56040 80%, #f77737 86%, #fcaf45 99%, #ffdc80 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.instagram:focus {
-  color: #125688;
+  color: #405de6;
   background: #fefefe;
   border-color: #125688;
 }
-footer .footer--top .social-media-links .rounded-social-buttons .fa-twitter,
-footer .footer--top .social-media-links .rounded-social-buttons .fa-facebook-f,
-footer .footer--top .social-media-links .rounded-social-buttons .fa-linkedin,
-footer .footer--top .social-media-links .rounded-social-buttons .fa-youtube,
-footer .footer--top .social-media-links .rounded-social-buttons .fa-instagram {
-  font-size: 25px;
+footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord {
+  background: #7289DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord:hover, footer .footer--top .social-media-links .rounded-social-buttons .social-button.discord:focus {
+  color: #7289DA;
+  background: #fefefe;
+  border-color: #7289DA;
 }
 
 /*# sourceMappingURL=index.css.map */

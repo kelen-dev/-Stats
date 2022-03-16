@@ -35,6 +35,10 @@
     background: var(--color-error);
 }
 
+[data-widget=kelens_discord_widget] .kelens-status-idle {
+    background: var(--color-warning);
+}
+
 [data-widget=kelens_discord_widget] .kelens-status-online {
     background: var(--color-success);
 }

@@ -33,14 +33,56 @@
                             <div class="card-body">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Score
                                             </h6>
                                             <p>
                                                 257,702
                                             </p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                K/D
+                                            </h6>
+                                            <p>
+                                                1.37
+                                            </p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Kills
+                                            </h6>
+                                            <p>
+                                                3,267
+                                            </p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Top 3/5/10
+                                            </h6>
+                                            <p>
+                                                343
+                                            </p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Win %
+                                            </h6>
+                                            <p>
+                                                3.70
+                                            </p>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <h6>
+                                                Wins
+                                            </h6>
+                                            <p>
+                                                93
+                                            </p>
+                                        </div>
 
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Top 6/12/25
                                             </h6>
@@ -48,14 +90,7 @@
                                                 709
                                             </p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                K/D
-                                            </h6>
-                                            <p>
-                                                1.37
-                                            </p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills/Match
                                             </h6>
@@ -63,14 +98,7 @@
                                                 1.43
                                             </p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Kills
-                                            </h6>
-                                            <p>
-                                                3,267
-                                            </p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Kills/Min
                                             </h6>
@@ -78,14 +106,7 @@
                                                 0.32
                                             </p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Top 3/5/10
-                                            </h6>
-                                            <p>
-                                                343
-                                            </p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Heals
                                             </h6>
@@ -93,14 +114,7 @@
                                                 26
                                             </p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Win %
-                                            </h6>
-                                            <p>
-                                                3.70
-                                            </p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Revives
                                             </h6>
@@ -108,14 +122,7 @@
                                                 137
                                             </p>
                                         </div>
-                                        <div class="col-md-2">
-                                            <h6>
-                                                Wins
-                                            </h6>
-                                            <p>
-                                                93
-                                            </p>
-
+                                        <div class="col col-md-2">
                                             <h6>
                                                 Resupplie
                                             </h6>
